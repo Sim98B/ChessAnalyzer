@@ -18,7 +18,7 @@ class StockfishWrapper:
 
 engine = chess.engine.SimpleEngine.popen_uci("engine/stockfish_16_1")
 depth = 22
-with open("games/game2.pgn") as f:
+with open("games/game3.pgn") as f:
     game = chess.pgn.read_game(f)
 
 board = game.board()

@@ -2,9 +2,14 @@ import chess
 import math
 import numpy as np
 
-def get_player_accuracy(player_acc, player_weights):
-    w_mean = weighted_mean(player_acc, player_weights)
-    h_mean = harmonic_mean(player_acc)
+
+def get_player_accuracy(moves_accuracy, weights, player="white"):
+    remainder = 0 if player == "white" else 1
+    player_accs = [a for i, a in enumerate(moves_accuracy) if i % 2 == remainder]
+    player_weights = [w for i, w in enumerate(weights) if i % 2 == remainder]
+
+    w_mean = weighted_mean(player_accs, player_weights)
+    h_mean = harmonic_mean(player_accs)
     return (w_mean + h_mean) / 2
 
 def calc_weights(moves_acc):
@@ -17,7 +22,7 @@ def calc_weights(moves_acc):
         end_idx = min(len(moves_acc), i + half_window)
         window = moves_acc[start_idx:end_idx]
         std = np.std(window)
-        weight = min(12, round(std*2)/2)
+        weight = np.clip(std, 0.5, 12)
         weights.append(weight)
     return weights
 
