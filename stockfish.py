@@ -1,6 +1,7 @@
 import chess
 import chess.engine
 import chess.pgn
+import json
 import numpy as np
 
 from utils.winPercentage import get_line_win_percentage
@@ -11,6 +12,9 @@ engine = chess.engine.SimpleEngine.popen_uci("engine/stockfish_16_1")
 depth = 22
 with open("games/game3.pgn") as f:
     game = chess.pgn.read_game(f)
+
+with open("openings_by_fen.json") as f:
+    openings = json.load(f)
 
 w_acc = []
 b_acc = []
@@ -29,15 +33,14 @@ for index, move in enumerate(game.mainline_moves()):
     win_before = get_line_win_percentage(info_before[0], player)
     cp_before = get_position_cp(info_before[0])
     positions_cp.append(cp_before)
-    """if index == 0:
-        cp_before = get_position_cp(info_before[0])
-        positions_cp.append(cp_before)"""
     board.push(move)
     info_after = engine.analyse(board, chess.engine.Limit(depth=depth), multipv=2)
     win_after = get_line_win_percentage(info_after[0], player)
-    #cp_after = get_position_cp(info_after[0])
-    #positions_cp.append(cp_after)
     accuracy = get_move_accuracy(win_before, win_after, player)
+    actual_fen = board.fen().split(' ')[0]
+    # print(f"Prima della mossa {index+1}: {board.fen().split(' ')[0]}")
+    print(openings.get(actual_fen, "Nessuna apertura"))
+    board.push(move)
     if player == chess.WHITE:
         w_acc.append(accuracy)
     else:
