@@ -5,7 +5,7 @@ def get_position_win_percentage(lines) -> float | int:
     return get_line_win_percentage(lines[0])
 
 def get_line_win_percentage(line: dict, player: chess.Color) -> float:
-    score = line["score"].pov(player)
+    score = line["score"].white()
     if isinstance(score, chess.engine.Mate):
         return get_win_percentage_from_mate(score.mate())
     return get_win_percentage_from_cp(score.score())
