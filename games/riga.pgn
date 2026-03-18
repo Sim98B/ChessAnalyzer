@@ -1,0 +1,11 @@
+[Event "?"]
+[Site "?"]
+[Date "2026.03.18"]
+[Round "?"]
+[White "Me"]
+[Black "Me"]
+[Result "*"]
+[SetUp "1"]
+[FEN "2r1k2r/1p1bppb1/p2p1npp/q3n3/3NP1PP/2N1BP2/PPPQB3/1K1R3R w k - 0 1"]
+
+1. g5 hxg5 2. hxg5 Rxh1 3. gxf6 Rxd1+ 4. Nxd1 Qxd2 5. fxg7 Kd8 6. g8=Q+ Kc7 7. Qxc8+ Kxc8 8. Bxd2 *

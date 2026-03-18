@@ -3,15 +3,15 @@ from utils.chess_utils import is_simple_piece_recapture, get_is_piece_sacrifice
 def basic_move_classification(win_before: float, win_after: float, player: bool):
     win_percentage_diff = (win_after - win_before) * (1 if player else -1)
     if win_percentage_diff < -20:
-        return "BLUNDER"
+        return "Blunder"
     elif win_percentage_diff < -10:
-        return "MISTAKE"
+        return "Mistake"
     elif win_percentage_diff < -5:
-        return "INACCURACY"
+        return "Inaccuracy"
     elif win_percentage_diff < -2:
-        return "GOOD"
+        return "Good"
     else:
-        return "EXCELLENT"
+        return "Excellent"
 
 def is_splendid_move(
     last_position_win_percentage: float,

@@ -1,23 +1,31 @@
-import chess
 import chess.engine
 import chess.pgn
 import json
-import numpy as np
+import os
+from pathlib import Path
 
 from utils.winPercentage import get_line_win_percentage
 from utils.accuracy import get_move_accuracy, get_player_accuracy, calc_weights
 from utils.estimateElo import get_position_cp, get_players_average_cpl, get_elo_from_rating_and_cpl
 from utils.moveClassification import basic_move_classification, is_perfect_move, is_splendid_move
 
-engine = chess.engine.SimpleEngine.popen_uci("engine/stockfish-windows-x86-64-avx2.exe")
+engine = chess.engine.SimpleEngine.popen_uci("engine/stockfish_16_1")
 depth = 22
 pv = 2
-#with open("games/game3.pgn") as f:
-with open("games/1splendid1_4perfect0.pgn") as f:
+PGN_FOLDER = Path("games/rastone98/")
+JSON_FILE = "rastone98.json"
+all_games = []
+if Path(JSON_FILE).exists():
+    with open(JSON_FILE) as f:
+        all_games = json.load(f)
+
+with open("games/rastone98/game.pgn") as f:
     game = chess.pgn.read_game(f)
 
 with open("openings_by_fen.json") as f:
     openings = json.load(f)
+
+JSON_FILE = "rastone98.json"
 
 w_acc = []
 b_acc = []
@@ -25,6 +33,10 @@ positions_cp = []
 board = game.board()
 prev_board = None
 uci_moves = []
+moves_data = []
+opening_name_global = None
+opening_locked = False
+MAX_OPENING_MOVES = 10
 for index, move in enumerate(game.mainline_moves()):
     if board.is_checkmate():
         print("Checkmate")
@@ -48,8 +60,21 @@ for index, move in enumerate(game.mainline_moves()):
     prev_board = board.copy()
     board.push(move)
 
+    if not opening_locked and index < MAX_OPENING_MOVES:
+        actual_fen = board.fen().split(' ')[0]
+        opening_name = openings.get(actual_fen)
+
+        if opening_name:
+            opening_name_global = opening_name
+        else:
+            opening_locked = True
+
     info_after = engine.analyse(board, chess.engine.Limit(depth=depth), multipv=pv)
-    win_after = get_line_win_percentage(info_after[0])
+    score_after = info_after[0]["score"].white()
+    if score_after.is_mate():
+        win_after = 100.0 if score_after.mate() > 0 else 0.0
+    else:
+        win_after = get_line_win_percentage(info_after[0])
     accuracy = get_move_accuracy(win_before, win_after, player)
 
     last_position_alternative_line_win_percentage = None
@@ -71,17 +96,16 @@ for index, move in enumerate(game.mainline_moves()):
 
     # 1️⃣ Forced
     if is_forced:
-        move_class = "FORCED"
+        move_class = "Forced"
 
     # 2️⃣ Opening
     actual_fen = board.fen().split(' ')[0]
     opening_name = openings.get(actual_fen)
     if move_class is None and opening_name is not None:
-        move_class = f"OPENING: {opening_name}"
+        move_class = f"Opening"
 
     # 3️⃣ Splendid
     fen_after_move = board.fen()
-    print(last_position_alternative_line_win_percentage)
     if move_class is None and last_position_alternative_line_win_percentage is not None:
         if is_splendid_move(
                 last_position_win_percentage=win_before,
@@ -93,7 +117,7 @@ for index, move in enumerate(game.mainline_moves()):
                 #fen = fen_after_move,
                 last_position_alternative_line_win_percentage=last_position_alternative_line_win_percentage
         ):
-            move_class = "SPLENDID"
+            move_class = "Splendid"
 
     # 4️⃣ Perfect
     if move_class is None and last_position_alternative_line_win_percentage is not None:
@@ -105,17 +129,22 @@ for index, move in enumerate(game.mainline_moves()):
                 fen_two_moves_ago=fen_two_moves_ago,
                 uci_moves=prev_two_uci
         ):
-            move_class = "PERFECT"
+            move_class = "Perfect"
 
     # 5️⃣ Best move
     if move_class is None and move == best_move:
-        move_class = "BEST"
+        move_class = "Best"
 
     # 6️⃣ Fallback classification
     if move_class is None:
         move_class = basic_move_classification(win_before, win_after, player)
 
     print(move_class)
+    san = prev_board.san(move)
+    moves_data.append({
+        "san": san,
+        "classification": move_class
+    })
 
     if player == chess.WHITE:
         w_acc.append(accuracy)
@@ -149,3 +178,50 @@ black_elo = get_elo_from_rating_and_cpl(black_cpl, black_rating or white_rating)
 
 print("White estimated Elo:", white_elo)
 print("Black estimated Elo:", black_elo)
+
+game_data = {
+    "game_id": "AUTO",  # lo gestiamo dopo
+    "white": game.headers.get("White", ""),
+    "black": game.headers.get("Black", ""),
+    "white_elo": int(game.headers.get("WhiteElo", 0)),
+    "black_elo": int(game.headers.get("BlackElo", 0)),
+    "white_rating": round(white_elo),
+    "black_rating": round(black_elo),
+    "white_accuracy": float(round(white_accuracy, 1)),
+    "black_accuracy": float(round(black_accuracy, 1)),
+    "opening": opening_name_global or "",
+    "engine": "stockfish16",
+    "depth": depth,
+    "pv": pv,
+    "result": game.headers.get("Result", ""),
+    "date": game.headers.get("Date", ""),
+    "moves": moves_data
+}
+
+
+def append_game_to_json(game_data, filename=JSON_FILE):
+    """
+    Aggiunge un game_data alla lista JSON esistente, crea il file se non esiste.
+    """
+    # Se il file esiste, carica la lista; altrimenti crea una nuova lista
+    if os.path.exists(filename):
+        with open(filename, "r") as f:
+            all_games = json.load(f)
+    else:
+        all_games = []
+
+    # Genera game_id automatico
+    existing_ids = [int(g["game_id"]) for g in all_games] if all_games else []
+    next_id = str(max(existing_ids) + 1 if existing_ids else 1).zfill(5)
+    game_data["game_id"] = next_id
+
+    # Aggiungi il game_data alla lista
+    all_games.append(game_data)
+
+    # Scrivi il file aggiornato
+    with open(filename, "w") as f:
+        json.dump(all_games, f, indent=2)
+
+    print(f"Partita {next_id} aggiunta a {filename}")
+
+append_game_to_json(game_data)
