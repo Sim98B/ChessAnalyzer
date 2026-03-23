@@ -8,6 +8,7 @@ from utils.winPercentage import get_line_win_percentage
 from utils.accuracy import get_move_accuracy, get_player_accuracy, calc_weights
 from utils.estimateElo import get_position_cp, get_players_average_cpl, get_elo_from_rating_and_cpl
 from utils.moveClassification import basic_move_classification, is_perfect_move, is_splendid_move
+from utils.chess_utils import extract_clock_time, get_phase
 
 engine = chess.engine.SimpleEngine.popen_uci("engine/stockfish_16_1")
 depth = 22
@@ -42,7 +43,32 @@ for pgn_file in PGN_FOLDER.glob("*.pgn"):
             opening_name_global = None
             opening_locked = False
             MAX_OPENING_MOVES = 10
-            for index, move in enumerate(game.mainline_moves()):
+            node = game
+            index = 0
+
+            prev_time_white = None
+            prev_time_black = None
+            current_phase = "opening"
+            while not node.is_end():
+                next_node = node.variation(0)
+                move = next_node.move
+                comment = next_node.comment
+                player = board.turn
+                current_time = extract_clock_time(comment)
+                time_spent = None
+
+                if current_time is not None:
+                    if player == chess.WHITE:
+                        if prev_time_white is not None:
+                            time_spent = prev_time_white - current_time
+                        prev_time_white = current_time
+                    else:
+                        if prev_time_black is not None:
+                            time_spent = prev_time_black - current_time
+                        prev_time_black = current_time
+
+                if time_spent is not None:
+                    time_spent = max(time_spent, 0)
                 if board.is_checkmate():
                     print("Checkmate")
                     break
@@ -64,6 +90,13 @@ for pgn_file in PGN_FOLDER.glob("*.pgn"):
 
                 prev_board = board.copy()
                 board.push(move)
+                phase_now = get_phase(board)
+                if current_phase == "opening":
+                    if phase_now != "opening":
+                        current_phase = "middlegame"
+                elif current_phase == "middlegame":
+                    if phase_now == "endgame":
+                        current_phase = "endgame"
 
                 if not opening_locked and index < MAX_OPENING_MOVES:
                     actual_fen = board.fen().split(' ')[0]
@@ -148,7 +181,9 @@ for pgn_file in PGN_FOLDER.glob("*.pgn"):
                 san = prev_board.san(move)
                 moves_data.append({
                     "san": san,
-                    "classification": move_class
+                    "classification": move_class,
+                    "time_spent": time_spent,
+                    "phase": current_phase  # <-- nuova label
                 })
 
                 if player == chess.WHITE:
@@ -157,6 +192,9 @@ for pgn_file in PGN_FOLDER.glob("*.pgn"):
                     b_acc.append(accuracy)
 
                 uci_moves.append(uci_move)
+
+                node = next_node
+                index += 1
 
             #engine.close()
             w_weights = calc_weights(w_acc)
