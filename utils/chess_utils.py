@@ -1,5 +1,6 @@
 import chess
 import chess.pgn
+import re
 
 PIECE_VALUES = {
     chess.PAWN: 1,
@@ -91,3 +92,12 @@ def get_material_difference(fen: str) -> int:
         value = get_piece_value(piece.piece_type)
         acc += value if piece.color == chess.WHITE else -value
     return acc
+
+def extract_clock_time(comment):
+    if not comment:
+        return None
+    match = re.search(r"\[%clk\s+(\d+):(\d+):([\d\.]+)\]", comment)
+    if match:
+        h, m, s = match.groups()
+        return int(h) * 3600 + int(m) * 60 + float(s)
+    return None
