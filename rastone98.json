@@ -5,12 +5,12 @@
     "black": "Ragalesh",
     "white_elo": 794,
     "black_elo": 757,
-    "white_rating": 1010,
-    "black_rating": 903,
-    "white_accuracy": 51.9,
+    "white_rating": 939,
+    "black_rating": 831,
+    "white_accuracy": 50.2,
     "black_accuracy": 85.2,
     "opening": "Scandinavian Defense",
-    "engine": "stockfish16",
+    "engine": "stockfish18",
     "depth": 22,
     "pv": 2,
     "result": "1-0",
@@ -19,13 +19,13 @@
       {
         "san": "e4",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 0.10000000000002274,
         "phase": "opening"
       },
       {
         "san": "d5",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 1.1000000000000227,
         "phase": "opening"
       },
       {
@@ -54,7 +54,7 @@
       },
       {
         "san": "Nf3",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 2.6000000000000227,
         "phase": "opening"
       },
@@ -66,7 +66,7 @@
       },
       {
         "san": "Bc4",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 2.0,
         "phase": "opening"
       },
@@ -96,7 +96,7 @@
       },
       {
         "san": "Nc6",
-        "classification": "Good",
+        "classification": "Inaccuracy",
         "time_spent": 4.2000000000000455,
         "phase": "opening"
       },
@@ -126,27 +126,27 @@
       },
       {
         "san": "Qxb7",
-        "classification": "Good",
+        "classification": "Inaccuracy",
         "time_spent": 9.0,
-        "phase": "middlegame"
+        "phase": "opening"
       },
       {
         "san": "Nxc2",
         "classification": "Blunder",
         "time_spent": 2.6000000000000227,
-        "phase": "middlegame"
+        "phase": "opening"
       },
       {
         "san": "Bb5+",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 3.199999999999932,
-        "phase": "middlegame"
+        "phase": "opening"
       },
       {
         "san": "Nd7",
         "classification": "Best",
         "time_spent": 4.899999999999977,
-        "phase": "middlegame"
+        "phase": "opening"
       },
       {
         "san": "Bxd7+",
@@ -198,7 +198,7 @@
       },
       {
         "san": "Bf4",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 5.600000000000023,
         "phase": "middlegame"
       },
@@ -240,7 +240,7 @@
       },
       {
         "san": "fxe5",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 1.8000000000000682,
         "phase": "middlegame"
       },
@@ -254,61 +254,61 @@
         "san": "Bxe5",
         "classification": "Excellent",
         "time_spent": 2.2999999999999545,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qxe5",
         "classification": "Best",
         "time_spent": 5.7999999999999545,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qd2",
         "classification": "Excellent",
         "time_spent": 2.5,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qe6+",
         "classification": "Excellent",
         "time_spent": 6.600000000000023,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kh8",
         "classification": "Best",
         "time_spent": 1.7000000000000455,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qe7",
         "classification": "Blunder",
         "time_spent": 3.5,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qxf2+",
         "classification": "Perfect",
         "time_spent": 10.399999999999977,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kh1",
         "classification": "Forced",
         "time_spent": 0.8999999999999773,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qxb2",
         "classification": "Blunder",
         "time_spent": 5.699999999999989,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qxf8#",
         "classification": "Best",
         "time_spent": 2.900000000000034,
-        "phase": "middlegame"
+        "phase": "endgame"
       }
     ]
   },
@@ -318,12 +318,12 @@
     "black": "Basir_Nurma",
     "white_elo": 764,
     "black_elo": 783,
-    "white_rating": 768,
-    "black_rating": 943,
-    "white_accuracy": 56.2,
-    "black_accuracy": 70.3,
+    "white_rating": 765,
+    "black_rating": 957,
+    "white_accuracy": 56.0,
+    "black_accuracy": 71.8,
     "opening": "King's Pawn Game: Busch-Gass Gambit",
-    "engine": "stockfish16",
+    "engine": "stockfish18",
     "depth": 22,
     "pv": 2,
     "result": "0-1",
@@ -332,13 +332,13 @@
       {
         "san": "e4",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 0.10000000000002274,
         "phase": "opening"
       },
       {
         "san": "e5",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 1.6000000000000227,
         "phase": "opening"
       },
       {
@@ -361,7 +361,7 @@
       },
       {
         "san": "Nf6",
-        "classification": "Mistake",
+        "classification": "Inaccuracy",
         "time_spent": 18.299999999999955,
         "phase": "opening"
       },
@@ -415,7 +415,7 @@
       },
       {
         "san": "Rf1",
-        "classification": "Inaccuracy",
+        "classification": "Mistake",
         "time_spent": 1.7000000000000455,
         "phase": "opening"
       },
@@ -427,7 +427,7 @@
       },
       {
         "san": "Kg1",
-        "classification": "Good",
+        "classification": "Inaccuracy",
         "time_spent": 2.199999999999932,
         "phase": "opening"
       },
@@ -439,7 +439,7 @@
       },
       {
         "san": "Na3",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 9.600000000000023,
         "phase": "opening"
       },
@@ -447,49 +447,49 @@
         "san": "Qc5+",
         "classification": "Inaccuracy",
         "time_spent": 13.399999999999977,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Kh1",
         "classification": "Inaccuracy",
         "time_spent": 8.5,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "h5",
         "classification": "Inaccuracy",
         "time_spent": 3.8000000000000114,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "d3",
         "classification": "Inaccuracy",
         "time_spent": 6.300000000000068,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Bg4",
         "classification": "Good",
         "time_spent": 5.600000000000023,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Qd2",
         "classification": "Best",
         "time_spent": 18.899999999999977,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Nc6",
         "classification": "Inaccuracy",
         "time_spent": 11.599999999999966,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "h3",
         "classification": "Mistake",
         "time_spent": 10.399999999999977,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "O-O-O",
@@ -517,12 +517,12 @@
     "black": "rastone98",
     "white_elo": 766,
     "black_elo": 778,
-    "white_rating": 1042,
-    "black_rating": 916,
-    "white_accuracy": 67.5,
-    "black_accuracy": 76.1,
+    "white_rating": 1015,
+    "black_rating": 891,
+    "white_accuracy": 66.2,
+    "black_accuracy": 74.7,
     "opening": "Indian Defense",
-    "engine": "stockfish16",
+    "engine": "stockfish18",
     "depth": 22,
     "pv": 2,
     "result": "1-0",
@@ -531,18 +531,18 @@
       {
         "san": "d4",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 2.7000000000000455,
         "phase": "opening"
       },
       {
         "san": "Nf6",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 1.2999999999999545,
         "phase": "opening"
       },
       {
         "san": "Bf4",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 1.7999999999999545,
         "phase": "opening"
       },
@@ -560,7 +560,7 @@
       },
       {
         "san": "Bg7",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 0.6000000000000227,
         "phase": "opening"
       },
@@ -590,7 +590,7 @@
       },
       {
         "san": "Bb3",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 1.5,
         "phase": "opening"
       },
@@ -638,7 +638,7 @@
       },
       {
         "san": "gxh5",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 2.2000000000000455,
         "phase": "opening"
       },
@@ -656,7 +656,7 @@
       },
       {
         "san": "e5",
-        "classification": "Inaccuracy",
+        "classification": "Mistake",
         "time_spent": 2.3999999999999773,
         "phase": "opening"
       },
@@ -670,25 +670,25 @@
         "san": "Ne8",
         "classification": "Best",
         "time_spent": 30.399999999999977,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Nxd5",
         "classification": "Inaccuracy",
         "time_spent": 13.800000000000068,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Be6",
         "classification": "Good",
         "time_spent": 10.200000000000045,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Qd3",
         "classification": "Inaccuracy",
         "time_spent": 13.799999999999955,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Nxe5",
@@ -746,7 +746,7 @@
       },
       {
         "san": "Bxd5",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 2.7999999999999545,
         "phase": "middlegame"
       },
@@ -788,7 +788,7 @@
       },
       {
         "san": "Rfd8",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 9.199999999999989,
         "phase": "middlegame"
       },
@@ -866,13 +866,13 @@
       },
       {
         "san": "Ke2",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 3.5,
         "phase": "middlegame"
       },
       {
         "san": "Qxc2+",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 3.099999999999966,
         "phase": "middlegame"
       },
@@ -896,7 +896,7 @@
       },
       {
         "san": "Rh8",
-        "classification": "Mistake",
+        "classification": "Blunder",
         "time_spent": 6.199999999999989,
         "phase": "middlegame"
       },
@@ -916,7 +916,7 @@
         "san": "Rxh8#",
         "classification": "Best",
         "time_spent": 5.199999999999989,
-        "phase": "middlegame"
+        "phase": "endgame"
       }
     ]
   },
@@ -926,12 +926,12 @@
     "black": "Ragalesh",
     "white_elo": 764,
     "black_elo": 774,
-    "white_rating": 979,
-    "black_rating": 1031,
-    "white_accuracy": 74.2,
-    "black_accuracy": 82.8,
+    "white_rating": 926,
+    "black_rating": 1000,
+    "white_accuracy": 74.5,
+    "black_accuracy": 82.3,
     "opening": "Scandinavian Defense",
-    "engine": "stockfish16",
+    "engine": "stockfish18",
     "depth": 22,
     "pv": 2,
     "result": "0-1",
@@ -940,13 +940,13 @@
       {
         "san": "e4",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 0.10000000000002274,
         "phase": "opening"
       },
       {
         "san": "d5",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 1.2000000000000455,
         "phase": "opening"
       },
       {
@@ -999,7 +999,7 @@
       },
       {
         "san": "O-O",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 0.8999999999999773,
         "phase": "opening"
       },
@@ -1047,9 +1047,9 @@
       },
       {
         "san": "gxf3",
-        "classification": "Perfect",
+        "classification": "Best",
         "time_spent": 2.0,
-        "phase": "middlegame"
+        "phase": "opening"
       },
       {
         "san": "Qxd1",
@@ -1089,7 +1089,7 @@
       },
       {
         "san": "Bb4",
-        "classification": "Mistake",
+        "classification": "Inaccuracy",
         "time_spent": 6.2999999999999545,
         "phase": "middlegame"
       },
@@ -1155,7 +1155,7 @@
       },
       {
         "san": "bxc3",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 2.699999999999932,
         "phase": "middlegame"
       },
@@ -1167,7 +1167,7 @@
       },
       {
         "san": "fxe5",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 0.900000000000091,
         "phase": "middlegame"
       },
@@ -1215,13 +1215,13 @@
       },
       {
         "san": "Rxe5",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 6.699999999999989,
         "phase": "middlegame"
       },
       {
         "san": "Ra8",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 33.39999999999998,
         "phase": "middlegame"
       },
@@ -1245,19 +1245,19 @@
       },
       {
         "san": "Bb3",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 26.600000000000023,
         "phase": "middlegame"
       },
       {
         "san": "Rd7",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 19.5,
         "phase": "middlegame"
       },
       {
         "san": "c5",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 4.399999999999977,
         "phase": "middlegame"
       },
@@ -1269,7 +1269,7 @@
       },
       {
         "san": "c4",
-        "classification": "Blunder",
+        "classification": "Mistake",
         "time_spent": 2.6000000000000227,
         "phase": "middlegame"
       },
@@ -1305,7 +1305,7 @@
       },
       {
         "san": "Rd1+",
-        "classification": "Inaccuracy",
+        "classification": "Mistake",
         "time_spent": 2.1999999999999886,
         "phase": "middlegame"
       },
@@ -1329,183 +1329,183 @@
       },
       {
         "san": "Rxa5",
-        "classification": "Perfect",
+        "classification": "Best",
         "time_spent": 6.199999999999989,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kxa5",
         "classification": "Best",
         "time_spent": 0.7000000000000455,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rd3",
         "classification": "Mistake",
         "time_spent": 10.300000000000011,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kb4",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 1.6999999999999886,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Nf3",
-        "classification": "Best",
+        "classification": "Inaccuracy",
         "time_spent": 3.8000000000000114,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "a5",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 6.800000000000011,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rd2",
-        "classification": "Inaccuracy",
+        "classification": "Mistake",
         "time_spent": 7.699999999999989,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bb6",
-        "classification": "Good",
+        "classification": "Inaccuracy",
         "time_spent": 9.399999999999977,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Ne5",
         "classification": "Mistake",
         "time_spent": 13.300000000000011,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "a6",
         "classification": "Best",
         "time_spent": 3.3000000000000114,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bc2",
         "classification": "Mistake",
         "time_spent": 6.699999999999989,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "a7",
         "classification": "Blunder",
         "time_spent": 2.3999999999999773,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Be4",
         "classification": "Perfect",
         "time_spent": 1.1000000000000227,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bc5",
         "classification": "Mistake",
         "time_spent": 17.69999999999999,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Ra2",
         "classification": "Mistake",
         "time_spent": 10.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bd4",
         "classification": "Best",
         "time_spent": 12.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rb2+",
         "classification": "Inaccuracy",
         "time_spent": 9.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kc5",
         "classification": "Best",
         "time_spent": 1.3000000000000114,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Nd3+",
         "classification": "Inaccuracy",
         "time_spent": 3.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kxc4",
-        "classification": "Best",
+        "classification": "Perfect",
         "time_spent": 2.8000000000000114,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Ra2",
         "classification": "Blunder",
         "time_spent": 29.19999999999999,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "f3",
         "classification": "Perfect",
         "time_spent": 8.600000000000023,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Nb2+",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 7.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kb3",
         "classification": "Perfect",
         "time_spent": 2.6999999999999886,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bd5+",
         "classification": "Best",
         "time_spent": 16.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kc2",
         "classification": "Blunder",
         "time_spent": 10.800000000000011,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Na4+",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 5.899999999999977,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kb1",
         "classification": "Excellent",
         "time_spent": 1.7999999999999545,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rb2+",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 3.5,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kc1",
         "classification": "Best",
         "time_spent": 1.3000000000000114,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bxf3",
@@ -1545,7 +1545,7 @@
       },
       {
         "san": "Rxc4+",
-        "classification": "Best",
+        "classification": "Splendid",
         "time_spent": 11.200000000000017,
         "phase": "endgame"
       },
@@ -1557,7 +1557,7 @@
       },
       {
         "san": "Rxc7",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 4.199999999999989,
         "phase": "endgame"
       }
@@ -1569,12 +1569,12 @@
     "black": "rastone98",
     "white_elo": 739,
     "black_elo": 764,
-    "white_rating": 1231,
-    "black_rating": 1298,
-    "white_accuracy": 90.3,
-    "black_accuracy": 78.2,
+    "white_rating": 1202,
+    "black_rating": 1299,
+    "white_accuracy": 91.3,
+    "black_accuracy": 78.8,
     "opening": "Indian Defense",
-    "engine": "stockfish16",
+    "engine": "stockfish18",
     "depth": 22,
     "pv": 2,
     "result": "0-1",
@@ -1583,13 +1583,13 @@
       {
         "san": "d4",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 0.6000000000000227,
         "phase": "opening"
       },
       {
         "san": "Nf6",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 2.2999999999999545,
         "phase": "opening"
       },
       {
@@ -1600,7 +1600,7 @@
       },
       {
         "san": "g6",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 0.900000000000091,
         "phase": "opening"
       },
@@ -1618,7 +1618,7 @@
       },
       {
         "san": "Nh3",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 4.0,
         "phase": "opening"
       },
@@ -1678,7 +1678,7 @@
       },
       {
         "san": "f4",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 2.3999999999999773,
         "phase": "opening"
       },
@@ -1708,13 +1708,13 @@
       },
       {
         "san": "Kxf8",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 11.5,
         "phase": "opening"
       },
       {
         "san": "g4",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 4.099999999999909,
         "phase": "opening"
       },
@@ -1722,157 +1722,157 @@
         "san": "Nxf4",
         "classification": "Best",
         "time_spent": 16.400000000000034,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Bxf4",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 1.900000000000091,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "fxe5",
         "classification": "Best",
         "time_spent": 2.599999999999966,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "dxe5",
         "classification": "Best",
         "time_spent": 5.699999999999932,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "d4",
         "classification": "Inaccuracy",
         "time_spent": 3.3000000000000114,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Qxd4",
         "classification": "Perfect",
         "time_spent": 14.100000000000023,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "c5",
         "classification": "Good",
         "time_spent": 20.5,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Qc4",
         "classification": "Inaccuracy",
         "time_spent": 32.0,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Nxe5",
         "classification": "Excellent",
         "time_spent": 12.699999999999989,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Qd5",
         "classification": "Excellent",
         "time_spent": 21.399999999999977,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Nxg4",
         "classification": "Excellent",
         "time_spent": 36.80000000000001,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Be2",
         "classification": "Blunder",
         "time_spent": 28.200000000000045,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Bxc3+",
         "classification": "Best",
         "time_spent": 3.5,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "bxc3",
         "classification": "Blunder",
         "time_spent": 3.8999999999999773,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Qxc3+",
         "classification": "Best",
         "time_spent": 3.1999999999999886,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Kf1",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 7.699999999999989,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Qxa1+",
         "classification": "Perfect",
         "time_spent": 2.0,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Kg2",
         "classification": "Best",
         "time_spent": 2.0,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Qf6",
         "classification": "Blunder",
         "time_spent": 16.200000000000045,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Kg3",
         "classification": "Blunder",
         "time_spent": 13.199999999999989,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Qc3+",
         "classification": "Best",
         "time_spent": 35.599999999999966,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Bf3",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 9.5,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Nf6",
         "classification": "Best",
         "time_spent": 31.80000000000001,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Qd8+",
-        "classification": "Inaccuracy",
+        "classification": "Mistake",
         "time_spent": 14.400000000000034,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Kf7",
         "classification": "Perfect",
         "time_spent": 8.800000000000011,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Qd3",
         "classification": "Best",
         "time_spent": 45.099999999999966,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Qxd3",
@@ -1884,115 +1884,115 @@
         "san": "cxd3",
         "classification": "Best",
         "time_spent": 1.5,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bf5",
         "classification": "Best",
         "time_spent": 8.200000000000045,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bxb7",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 11.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rd8",
         "classification": "Best",
         "time_spent": 3.8999999999999773,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rd1",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 6.2000000000000455,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "c4",
         "classification": "Inaccuracy",
         "time_spent": 10.100000000000023,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "d4",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 7.199999999999989,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "c3",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 8.699999999999989,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bc7",
         "classification": "Inaccuracy",
         "time_spent": 17.899999999999977,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rd7",
         "classification": "Best",
         "time_spent": 6.099999999999966,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rc1",
         "classification": "Excellent",
         "time_spent": 12.5,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rxc7",
         "classification": "Best",
         "time_spent": 6.2000000000000455,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Ba6",
         "classification": "Excellent",
         "time_spent": 10.800000000000011,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rc6",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 14.599999999999966,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bb5",
         "classification": "Best",
         "time_spent": 5.399999999999977,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rd6",
         "classification": "Excellent",
         "time_spent": 6.900000000000006,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rxc3",
         "classification": "Good",
         "time_spent": 8.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Ne4+",
         "classification": "Best",
         "time_spent": 2.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kf4",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 5.400000000000034,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Nxc3",
@@ -2002,7 +2002,7 @@
       },
       {
         "san": "Bc4+",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 7.699999999999989,
         "phase": "endgame"
       },
@@ -2026,13 +2026,13 @@
       },
       {
         "san": "Bb3",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 14.400000000000006,
         "phase": "endgame"
       },
       {
         "san": "g5",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 8.599999999999994,
         "phase": "endgame"
       },
@@ -2050,7 +2050,7 @@
       },
       {
         "san": "a4",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 1.9000000000000057,
         "phase": "endgame"
       },
@@ -2062,7 +2062,7 @@
       },
       {
         "san": "Kf4",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 6.400000000000006,
         "phase": "endgame"
       },
@@ -2080,7 +2080,7 @@
       },
       {
         "san": "Ne4+",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 8.099999999999994,
         "phase": "endgame"
       },
@@ -2128,13 +2128,13 @@
       },
       {
         "san": "Rxd4",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 0.30000000000001137,
         "phase": "endgame"
       },
       {
         "san": "h3",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 2.700000000000017,
         "phase": "endgame"
       },
@@ -2164,7 +2164,7 @@
       },
       {
         "san": "Rxh4",
-        "classification": "Inaccuracy",
+        "classification": "Excellent",
         "time_spent": 1.6999999999999886,
         "phase": "endgame"
       },
@@ -2182,19 +2182,19 @@
       },
       {
         "san": "Kg3",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 1.3000000000000114,
         "phase": "endgame"
       },
       {
         "san": "Ke6",
-        "classification": "Good",
+        "classification": "Best",
         "time_spent": 1.4000000000000057,
         "phase": "endgame"
       },
       {
         "san": "Kf2",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 2.1999999999999886,
         "phase": "endgame"
       },
@@ -2206,7 +2206,7 @@
       },
       {
         "san": "Ke3",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 1.0,
         "phase": "endgame"
       },
@@ -2218,7 +2218,7 @@
       },
       {
         "san": "Kf4",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 1.5,
         "phase": "endgame"
       },
@@ -2242,7 +2242,7 @@
       },
       {
         "san": "Kf5",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 2.4000000000000057,
         "phase": "endgame"
       },
@@ -2254,7 +2254,7 @@
       },
       {
         "san": "Ke5",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 1.5,
         "phase": "endgame"
       },
@@ -2266,7 +2266,7 @@
       },
       {
         "san": "Kd4",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 2.3000000000000114,
         "phase": "endgame"
       },
@@ -2338,13 +2338,13 @@
       },
       {
         "san": "a5",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 1.8000000000000114,
         "phase": "endgame"
       },
       {
         "san": "Qd4+",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 4.099999999999994,
         "phase": "endgame"
       },
@@ -2380,7 +2380,7 @@
       },
       {
         "san": "Kc5",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 4.599999999999994,
         "phase": "endgame"
       },
@@ -2440,12 +2440,12 @@
     "black": "rastone98",
     "white_elo": 792,
     "black_elo": 752,
-    "white_rating": 1286,
-    "black_rating": 1082,
-    "white_accuracy": 91.5,
-    "black_accuracy": 94.2,
+    "white_rating": 1347,
+    "black_rating": 1151,
+    "white_accuracy": 91.0,
+    "black_accuracy": 95.6,
     "opening": "Pirc Defense",
-    "engine": "stockfish16",
+    "engine": "stockfish18",
     "depth": 22,
     "pv": 2,
     "result": "1-0",
@@ -2454,13 +2454,13 @@
       {
         "san": "e4",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 14.100000000000023,
         "phase": "opening"
       },
       {
         "san": "d6",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 1.7000000000000455,
         "phase": "opening"
       },
       {
@@ -2471,7 +2471,7 @@
       },
       {
         "san": "Nf6",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 1.599999999999909,
         "phase": "opening"
       },
@@ -2501,7 +2501,7 @@
       },
       {
         "san": "Bd3",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 0.8999999999999773,
         "phase": "opening"
       },
@@ -2543,7 +2543,7 @@
       },
       {
         "san": "Nbd7",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 0.7999999999999545,
         "phase": "opening"
       },
@@ -2561,21 +2561,21 @@
       },
       {
         "san": "Bxf6",
-        "classification": "Good",
+        "classification": "Inaccuracy",
         "time_spent": 6.7000000000000455,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Nxf6",
         "classification": "Inaccuracy",
         "time_spent": 3.400000000000091,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "e5",
         "classification": "Best",
         "time_spent": 0.8999999999999773,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "dxe5",
@@ -2615,13 +2615,13 @@
       },
       {
         "san": "Rxb2",
-        "classification": "Inaccuracy",
+        "classification": "Mistake",
         "time_spent": 2.2999999999999545,
         "phase": "middlegame"
       },
       {
         "san": "Rab1",
-        "classification": "Inaccuracy",
+        "classification": "Mistake",
         "time_spent": 4.699999999999932,
         "phase": "middlegame"
       },
@@ -2657,7 +2657,7 @@
       },
       {
         "san": "Nd5",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 3.2999999999999545,
         "phase": "middlegame"
       },
@@ -2669,7 +2669,7 @@
       },
       {
         "san": "Rb7",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 50.80000000000001,
         "phase": "middlegame"
       },
@@ -2687,123 +2687,123 @@
       },
       {
         "san": "Rxc7",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 13.800000000000011,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Nxc7",
         "classification": "Best",
         "time_spent": 1.1999999999999886,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "fxe5",
         "classification": "Excellent",
         "time_spent": 2.3000000000000114,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Nxe6",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 2.5,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qe8",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 21.5,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bc4",
         "classification": "Excellent",
         "time_spent": 4.5,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kh7",
-        "classification": "Inaccuracy",
+        "classification": "Excellent",
         "time_spent": 5.199999999999989,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Nxg7",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 27.600000000000023,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kxg7",
         "classification": "Best",
         "time_spent": 1.5,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bb5",
         "classification": "Excellent",
         "time_spent": 8.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qd8",
         "classification": "Excellent",
         "time_spent": 6.800000000000011,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qxe5+",
         "classification": "Best",
         "time_spent": 3.3999999999999773,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kh7",
         "classification": "Excellent",
         "time_spent": 6.300000000000011,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bd3",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 23.400000000000034,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qb6",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 11.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qe4",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 1.6999999999999886,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qb1+",
         "classification": "Excellent",
         "time_spent": 6.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kh2",
-        "classification": "Perfect",
+        "classification": "Best",
         "time_spent": 2.1999999999999886,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qb8+",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 3.6999999999999886,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "g3",
-        "classification": "Good",
+        "classification": "Best",
         "time_spent": 2.6999999999999886,
-        "phase": "middlegame"
+        "phase": "endgame"
       }
     ]
   },
@@ -2813,12 +2813,12 @@
     "black": "nitenmalego",
     "white_elo": 769,
     "black_elo": 799,
-    "white_rating": 1133,
-    "black_rating": 1231,
-    "white_accuracy": 84.3,
-    "black_accuracy": 88.2,
+    "white_rating": 1076,
+    "black_rating": 1189,
+    "white_accuracy": 83.2,
+    "black_accuracy": 87.1,
     "opening": "Philidor Defense",
-    "engine": "stockfish16",
+    "engine": "stockfish18",
     "depth": 22,
     "pv": 2,
     "result": "0-1",
@@ -2827,13 +2827,13 @@
       {
         "san": "e4",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 0.10000000000002274,
         "phase": "opening"
       },
       {
         "san": "e5",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 1.5,
         "phase": "opening"
       },
       {
@@ -2862,7 +2862,7 @@
       },
       {
         "san": "O-O",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 0.7000000000000455,
         "phase": "opening"
       },
@@ -2916,7 +2916,7 @@
       },
       {
         "san": "Be7",
-        "classification": "Mistake",
+        "classification": "Blunder",
         "time_spent": 28.700000000000045,
         "phase": "opening"
       },
@@ -2928,9 +2928,9 @@
       },
       {
         "san": "Qxd6",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 9.399999999999977,
-        "phase": "middlegame"
+        "phase": "opening"
       },
       {
         "san": "Qxd6",
@@ -2994,7 +2994,7 @@
       },
       {
         "san": "Be3",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 11.5,
         "phase": "middlegame"
       },
@@ -3018,7 +3018,7 @@
       },
       {
         "san": "Bxa7",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 12.100000000000023,
         "phase": "middlegame"
       },
@@ -3036,7 +3036,7 @@
       },
       {
         "san": "Rf4",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 36.099999999999966,
         "phase": "middlegame"
       },
@@ -3048,13 +3048,13 @@
       },
       {
         "san": "Nd3",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 7.0,
         "phase": "middlegame"
       },
       {
         "san": "Re2",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 33.39999999999998,
         "phase": "middlegame"
       },
@@ -3072,13 +3072,13 @@
       },
       {
         "san": "Re8",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 2.3999999999999773,
         "phase": "middlegame"
       },
       {
         "san": "Rf1",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 27.0,
         "phase": "middlegame"
       },
@@ -3096,7 +3096,7 @@
       },
       {
         "san": "Re4",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 16.5,
         "phase": "middlegame"
       },
@@ -3110,97 +3110,97 @@
         "san": "Rxe6",
         "classification": "Best",
         "time_spent": 2.6000000000000227,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rd1",
         "classification": "Perfect",
         "time_spent": 23.600000000000023,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Nb2",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 13.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rxb2",
         "classification": "Good",
         "time_spent": 4.300000000000011,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rxe3",
         "classification": "Best",
         "time_spent": 4.5,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rxb7",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 0.8999999999999773,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rxc3",
         "classification": "Best",
         "time_spent": 7.699999999999989,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "a4",
         "classification": "Excellent",
         "time_spent": 1.8999999999999773,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Ra3",
         "classification": "Excellent",
         "time_spent": 4.400000000000034,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Ra7",
         "classification": "Excellent",
         "time_spent": 5.400000000000034,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rxa2",
         "classification": "Excellent",
         "time_spent": 1.8999999999999773,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "h3",
-        "classification": "Inaccuracy",
+        "classification": "Mistake",
         "time_spent": 1.599999999999966,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rf4",
         "classification": "Mistake",
         "time_spent": 3.6999999999999886,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kh2",
         "classification": "Blunder",
         "time_spent": 2.8000000000000114,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rfxa4",
         "classification": "Best",
         "time_spent": 4.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rdd7",
         "classification": "Blunder",
         "time_spent": 2.900000000000034,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rxa7",
@@ -3216,12 +3216,12 @@
     "black": "Gyari08",
     "white_elo": 777,
     "black_elo": 763,
-    "white_rating": 1123,
-    "black_rating": 894,
-    "white_accuracy": 88.3,
-    "black_accuracy": 70.3,
+    "white_rating": 1084,
+    "black_rating": 862,
+    "white_accuracy": 86.6,
+    "black_accuracy": 70.7,
     "opening": "Italian Game: Anti-Fried Liver Defense",
-    "engine": "stockfish16",
+    "engine": "stockfish18",
     "depth": 22,
     "pv": 2,
     "result": "1-0",
@@ -3230,13 +3230,13 @@
       {
         "san": "e4",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 0.20000000000004547,
         "phase": "opening"
       },
       {
         "san": "e5",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 3.0,
         "phase": "opening"
       },
       {
@@ -3265,7 +3265,7 @@
       },
       {
         "san": "O-O",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 2.400000000000091,
         "phase": "opening"
       },
@@ -3301,7 +3301,7 @@
       },
       {
         "san": "Nxc6",
-        "classification": "Good",
+        "classification": "Inaccuracy",
         "time_spent": 6.5,
         "phase": "opening"
       },
@@ -3319,7 +3319,7 @@
       },
       {
         "san": "Bc5",
-        "classification": "Good",
+        "classification": "Inaccuracy",
         "time_spent": 6.899999999999977,
         "phase": "opening"
       },
@@ -3333,37 +3333,37 @@
         "san": "Bxb4",
         "classification": "Best",
         "time_spent": 3.0,
-        "phase": "middlegame"
+        "phase": "opening"
       },
       {
         "san": "c3",
         "classification": "Best",
         "time_spent": 0.8999999999999773,
-        "phase": "middlegame"
+        "phase": "opening"
       },
       {
         "san": "Bc5",
         "classification": "Inaccuracy",
         "time_spent": 1.400000000000091,
-        "phase": "middlegame"
+        "phase": "opening"
       },
       {
         "san": "e5",
         "classification": "Best",
         "time_spent": 6.0,
-        "phase": "middlegame"
+        "phase": "opening"
       },
       {
         "san": "Ng4",
         "classification": "Blunder",
         "time_spent": 4.599999999999909,
-        "phase": "middlegame"
+        "phase": "opening"
       },
       {
         "san": "Re2",
         "classification": "Blunder",
         "time_spent": 13.699999999999932,
-        "phase": "middlegame"
+        "phase": "opening"
       },
       {
         "san": "d5",
@@ -3493,12 +3493,12 @@
     "black": "nikkhilm",
     "white_elo": 764,
     "black_elo": 787,
-    "white_rating": 778,
-    "black_rating": 882,
-    "white_accuracy": 71.5,
-    "black_accuracy": 74.8,
+    "white_rating": 735,
+    "black_rating": 843,
+    "white_accuracy": 71.1,
+    "black_accuracy": 75.7,
     "opening": "Italian Game: Two Knights Defense, Knight Attack, Normal Variation",
-    "engine": "stockfish16",
+    "engine": "stockfish18",
     "depth": 22,
     "pv": 2,
     "result": "0-1",
@@ -3507,13 +3507,13 @@
       {
         "san": "e4",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 0.10000000000002274,
         "phase": "opening"
       },
       {
         "san": "e5",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 7.100000000000023,
         "phase": "opening"
       },
       {
@@ -3560,7 +3560,7 @@
       },
       {
         "san": "Nxd5",
-        "classification": "Mistake",
+        "classification": "Inaccuracy",
         "time_spent": 1.1000000000000227,
         "phase": "opening"
       },
@@ -3620,13 +3620,13 @@
       },
       {
         "san": "Nd4",
-        "classification": "Perfect",
+        "classification": "Best",
         "time_spent": 13.0,
         "phase": "opening"
       },
       {
         "san": "Nce4",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 5.0,
         "phase": "opening"
       },
@@ -3634,13 +3634,13 @@
         "san": "Qxd5",
         "classification": "Best",
         "time_spent": 1.7999999999999545,
-        "phase": "middlegame"
+        "phase": "opening"
       },
       {
         "san": "c3",
         "classification": "Best",
         "time_spent": 10.899999999999977,
-        "phase": "middlegame"
+        "phase": "opening"
       },
       {
         "san": "Bxg5",
@@ -3668,7 +3668,7 @@
       },
       {
         "san": "exd4",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 4.199999999999932,
         "phase": "middlegame"
       },
@@ -3698,13 +3698,13 @@
       },
       {
         "san": "g3",
-        "classification": "Mistake",
+        "classification": "Inaccuracy",
         "time_spent": 3.0,
         "phase": "middlegame"
       },
       {
         "san": "Rae8",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 4.0,
         "phase": "middlegame"
       },
@@ -3718,115 +3718,115 @@
         "san": "Rxe8",
         "classification": "Perfect",
         "time_spent": 1.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qa4",
         "classification": "Inaccuracy",
         "time_spent": 5.699999999999932,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rf8",
         "classification": "Mistake",
         "time_spent": 2.6999999999999886,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bb4",
         "classification": "Blunder",
         "time_spent": 1.8000000000000682,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rd8",
         "classification": "Mistake",
         "time_spent": 12.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Re1",
         "classification": "Best",
         "time_spent": 7.099999999999966,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "h6",
         "classification": "Best",
         "time_spent": 6.800000000000011,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qxa7",
         "classification": "Mistake",
         "time_spent": 11.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kh7",
         "classification": "Blunder",
         "time_spent": 13.099999999999966,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qxb7",
-        "classification": "Good",
+        "classification": "Inaccuracy",
         "time_spent": 5.300000000000011,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qd3",
         "classification": "Blunder",
         "time_spent": 3.1000000000000227,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "a4",
         "classification": "Blunder",
         "time_spent": 34.299999999999955,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Re8",
         "classification": "Best",
         "time_spent": 3.6999999999999886,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Ra1",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 30.600000000000023,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qe2",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 15.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qb5",
         "classification": "Excellent",
         "time_spent": 23.899999999999977,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qf3",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 4.5,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qf1",
         "classification": "Best",
         "time_spent": 23.700000000000045,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bxf1",
         "classification": "Best",
         "time_spent": 5.900000000000034,
-        "phase": "middlegame"
+        "phase": "endgame"
       }
     ]
   },
@@ -3836,12 +3836,12 @@
     "black": "alexsey16",
     "white_elo": 778,
     "black_elo": 794,
-    "white_rating": 781,
-    "black_rating": 1426,
-    "white_accuracy": 41.7,
-    "black_accuracy": 99.9,
+    "white_rating": 766,
+    "black_rating": 1415,
+    "white_accuracy": 41.8,
+    "black_accuracy": 100.0,
     "opening": "Italian Game: Two Knights Defense, Traxler Counterattack, Knight Sacrifice Line",
-    "engine": "stockfish16",
+    "engine": "stockfish18",
     "depth": 22,
     "pv": 2,
     "result": "0-1",
@@ -3850,13 +3850,13 @@
       {
         "san": "e4",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 0.10000000000002274,
         "phase": "opening"
       },
       {
         "san": "e5",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 1.7999999999999545,
         "phase": "opening"
       },
       {
@@ -3903,13 +3903,13 @@
       },
       {
         "san": "Bxf2+",
-        "classification": "Best",
+        "classification": "Perfect",
         "time_spent": 1.2000000000000455,
         "phase": "opening"
       },
       {
         "san": "Kxf2",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 1.3999999999999773,
         "phase": "opening"
       },
@@ -3933,13 +3933,13 @@
       },
       {
         "san": "Kf1",
-        "classification": "Mistake",
+        "classification": "Inaccuracy",
         "time_spent": 1.3000000000000682,
         "phase": "opening"
       },
       {
         "san": "Qf2#",
-        "classification": "Perfect",
+        "classification": "Best",
         "time_spent": 6.0,
         "phase": "opening"
       }
@@ -3951,12 +3951,12 @@
     "black": "rastone98",
     "white_elo": 813,
     "black_elo": 788,
-    "white_rating": 1175,
-    "black_rating": 1075,
-    "white_accuracy": 87.3,
-    "black_accuracy": 77.9,
+    "white_rating": 1161,
+    "black_rating": 1058,
+    "white_accuracy": 87.5,
+    "black_accuracy": 78.3,
     "opening": "East Indian Defense",
-    "engine": "stockfish16",
+    "engine": "stockfish18",
     "depth": 22,
     "pv": 2,
     "result": "1-0",
@@ -3965,13 +3965,13 @@
       {
         "san": "d4",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 0.5,
         "phase": "opening"
       },
       {
         "san": "Nf6",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 1.1000000000000227,
         "phase": "opening"
       },
       {
@@ -3988,13 +3988,13 @@
       },
       {
         "san": "Nc3",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 0.5,
         "phase": "opening"
       },
       {
         "san": "Bg7",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 0.7000000000000455,
         "phase": "opening"
       },
@@ -4012,7 +4012,7 @@
       },
       {
         "san": "Be2",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 0.7000000000000455,
         "phase": "opening"
       },
@@ -4042,7 +4042,7 @@
       },
       {
         "san": "Nbd7",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 0.8000000000000682,
         "phase": "opening"
       },
@@ -4078,7 +4078,7 @@
       },
       {
         "san": "Nb6",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 0.900000000000091,
         "phase": "opening"
       },
@@ -4090,7 +4090,7 @@
       },
       {
         "san": "Nc4",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 3.199999999999932,
         "phase": "opening"
       },
@@ -4104,37 +4104,37 @@
         "san": "Nd6",
         "classification": "Good",
         "time_spent": 28.800000000000068,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "a5",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 9.800000000000068,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Nde4",
         "classification": "Inaccuracy",
         "time_spent": 3.0,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "b5",
         "classification": "Good",
         "time_spent": 9.899999999999977,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Nxc3",
         "classification": "Good",
         "time_spent": 7.699999999999932,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Bxc3",
         "classification": "Inaccuracy",
         "time_spent": 1.7000000000000455,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "cxb5",
@@ -4228,7 +4228,7 @@
       },
       {
         "san": "Qxd5",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 11.399999999999977,
         "phase": "middlegame"
       },
@@ -4242,103 +4242,103 @@
         "san": "Bxd5",
         "classification": "Best",
         "time_spent": 2.2000000000000455,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rxc2",
         "classification": "Excellent",
         "time_spent": 12.5,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rxb4",
         "classification": "Best",
         "time_spent": 4.199999999999989,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "b6",
-        "classification": "Best",
-        "time_spent": 8.400000000000034,
-        "phase": "middlegame"
-      },
-      {
-        "san": "axb6",
         "classification": "Excellent",
-        "time_spent": 3.0,
-        "phase": "middlegame"
+        "time_spent": 8.400000000000034,
+        "phase": "endgame"
       },
       {
         "san": "axb6",
         "classification": "Best",
+        "time_spent": 3.0,
+        "phase": "endgame"
+      },
+      {
+        "san": "axb6",
+        "classification": "Perfect",
         "time_spent": 1.8999999999999773,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rxb6",
         "classification": "Excellent",
         "time_spent": 1.1999999999999886,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rd8",
         "classification": "Excellent",
         "time_spent": 4.400000000000034,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Be4",
         "classification": "Excellent",
         "time_spent": 4.199999999999989,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "f5",
         "classification": "Blunder",
         "time_spent": 9.899999999999977,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bxc2",
         "classification": "Perfect",
         "time_spent": 3.400000000000034,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "e5",
-        "classification": "Mistake",
+        "classification": "Inaccuracy",
         "time_spent": 7.800000000000011,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bb3+",
         "classification": "Excellent",
         "time_spent": 2.599999999999966,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kh8",
         "classification": "Best",
         "time_spent": 2.6999999999999886,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "dxe5",
         "classification": "Inaccuracy",
         "time_spent": 2.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bxe5",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 2.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "f4",
         "classification": "Blunder",
         "time_spent": 4.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bxa1",
@@ -4354,7 +4354,7 @@
       },
       {
         "san": "Kg7",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 12.5,
         "phase": "endgame"
       },
@@ -4384,7 +4384,7 @@
       },
       {
         "san": "Bg8",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 8.099999999999966,
         "phase": "endgame"
       },
@@ -4408,7 +4408,7 @@
       },
       {
         "san": "g4",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 6.699999999999989,
         "phase": "endgame"
       },
@@ -4426,7 +4426,7 @@
       },
       {
         "san": "Rg1+",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 2.6999999999999886,
         "phase": "endgame"
       },
@@ -4438,7 +4438,7 @@
       },
       {
         "san": "Rh1",
-        "classification": "Good",
+        "classification": "Inaccuracy",
         "time_spent": 3.8999999999999773,
         "phase": "endgame"
       },
@@ -4450,13 +4450,13 @@
       },
       {
         "san": "Rg1+",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 10.800000000000011,
         "phase": "endgame"
       },
       {
         "san": "Kh2",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 3.3000000000000114,
         "phase": "endgame"
       },
@@ -4486,7 +4486,7 @@
       },
       {
         "san": "Re1",
-        "classification": "Mistake",
+        "classification": "Blunder",
         "time_spent": 7.600000000000023,
         "phase": "endgame"
       },
@@ -4570,7 +4570,7 @@
       },
       {
         "san": "Bd4",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 7.600000000000023,
         "phase": "endgame"
       },
@@ -4582,13 +4582,13 @@
       },
       {
         "san": "Re3+",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 2.5,
         "phase": "endgame"
       },
       {
         "san": "Kd2",
-        "classification": "Perfect",
+        "classification": "Best",
         "time_spent": 4.699999999999989,
         "phase": "endgame"
       },
@@ -4612,7 +4612,7 @@
       },
       {
         "san": "Kd3",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 2.5,
         "phase": "endgame"
       },
@@ -4648,12 +4648,12 @@
     "black": "Joseph98765",
     "white_elo": 776,
     "black_elo": 803,
-    "white_rating": 802,
-    "black_rating": 1133,
-    "white_accuracy": 66.6,
-    "black_accuracy": 64.7,
+    "white_rating": 765,
+    "black_rating": 1167,
+    "white_accuracy": 65.9,
+    "black_accuracy": 66.2,
     "opening": "King's Pawn Game: Busch-Gass Gambit",
-    "engine": "stockfish16",
+    "engine": "stockfish18",
     "depth": 22,
     "pv": 2,
     "result": "0-1",
@@ -4662,13 +4662,13 @@
       {
         "san": "e4",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 0.10000000000002274,
         "phase": "opening"
       },
       {
         "san": "e5",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 3.1000000000000227,
         "phase": "opening"
       },
       {
@@ -4751,7 +4751,7 @@
       },
       {
         "san": "Qxg5",
-        "classification": "Perfect",
+        "classification": "Best",
         "time_spent": 2.2999999999999545,
         "phase": "opening"
       },
@@ -4775,12 +4775,12 @@
     "black": "rastone98",
     "white_elo": 776,
     "black_elo": 787,
-    "white_rating": 828,
-    "black_rating": 1063,
-    "white_accuracy": 60.7,
-    "black_accuracy": 78.6,
+    "white_rating": 813,
+    "black_rating": 1047,
+    "white_accuracy": 61.0,
+    "black_accuracy": 79.4,
     "opening": "Pirc Defense",
-    "engine": "stockfish16",
+    "engine": "stockfish18",
     "depth": 22,
     "pv": 2,
     "result": "0-1",
@@ -4789,13 +4789,13 @@
       {
         "san": "e4",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 1.1000000000000227,
         "phase": "opening"
       },
       {
         "san": "d6",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 3.2999999999999545,
         "phase": "opening"
       },
       {
@@ -4848,7 +4848,7 @@
       },
       {
         "san": "Nh3",
-        "classification": "Blunder",
+        "classification": "Mistake",
         "time_spent": 4.899999999999977,
         "phase": "opening"
       },
@@ -4862,55 +4862,55 @@
         "san": "Bd3",
         "classification": "Inaccuracy",
         "time_spent": 2.2000000000000455,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Nc5",
         "classification": "Perfect",
         "time_spent": 7.0,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Bc4",
         "classification": "Inaccuracy",
         "time_spent": 7.5,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Ne6",
         "classification": "Mistake",
         "time_spent": 8.600000000000023,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Bxe6",
         "classification": "Inaccuracy",
         "time_spent": 3.2000000000000455,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Bxe6",
         "classification": "Perfect",
         "time_spent": 1.2999999999999545,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Nf4",
         "classification": "Best",
         "time_spent": 1.6999999999999318,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Bf5",
         "classification": "Best",
         "time_spent": 6.600000000000023,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Re1",
-        "classification": "Mistake",
+        "classification": "Inaccuracy",
         "time_spent": 9.100000000000023,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Bg7",
@@ -4926,13 +4926,13 @@
       },
       {
         "san": "fxe6",
-        "classification": "Blunder",
+        "classification": "Mistake",
         "time_spent": 12.0,
         "phase": "middlegame"
       },
       {
         "san": "Nxe6",
-        "classification": "Perfect",
+        "classification": "Best",
         "time_spent": 2.0,
         "phase": "middlegame"
       },
@@ -4980,39 +4980,39 @@
       },
       {
         "san": "Rxe7",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 1.1000000000000227,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rxf2",
         "classification": "Inaccuracy",
         "time_spent": 0.7000000000000455,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rxc7",
         "classification": "Inaccuracy",
         "time_spent": 5.399999999999977,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rd8+",
         "classification": "Good",
         "time_spent": 1.1999999999999318,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kc1",
         "classification": "Mistake",
         "time_spent": 5.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rf1#",
         "classification": "Best",
         "time_spent": 2.400000000000091,
-        "phase": "middlegame"
+        "phase": "endgame"
       }
     ]
   },
@@ -5022,12 +5022,12 @@
     "black": "rastone98",
     "white_elo": 777,
     "black_elo": 787,
-    "white_rating": 1165,
-    "black_rating": 1377,
-    "white_accuracy": 86.0,
-    "black_accuracy": 95.3,
+    "white_rating": 1164,
+    "black_rating": 1368,
+    "white_accuracy": 85.7,
+    "black_accuracy": 95.0,
     "opening": "Pirc Defense",
-    "engine": "stockfish16",
+    "engine": "stockfish18",
     "depth": 22,
     "pv": 2,
     "result": "0-1",
@@ -5036,18 +5036,18 @@
       {
         "san": "e4",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 2.1000000000000227,
         "phase": "opening"
       },
       {
         "san": "d6",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 0.7999999999999545,
         "phase": "opening"
       },
       {
         "san": "Qh5",
-        "classification": "Inaccuracy",
+        "classification": "Mistake",
         "time_spent": 1.8999999999999773,
         "phase": "opening"
       },
@@ -5065,7 +5065,7 @@
       },
       {
         "san": "g6",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 1.1999999999999318,
         "phase": "opening"
       },
@@ -5089,13 +5089,13 @@
       },
       {
         "san": "O-O",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 1.1000000000000227,
         "phase": "opening"
       },
       {
         "san": "Bc4",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 1.099999999999909,
         "phase": "opening"
       },
@@ -5113,13 +5113,13 @@
       },
       {
         "san": "e6",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 1.8999999999999773,
         "phase": "opening"
       },
       {
         "san": "Qxb7",
-        "classification": "Inaccuracy",
+        "classification": "Mistake",
         "time_spent": 1.5,
         "phase": "opening"
       },
@@ -5173,15 +5173,15 @@
       },
       {
         "san": "e5",
-        "classification": "Good",
+        "classification": "Inaccuracy",
         "time_spent": 5.399999999999977,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Nd5",
-        "classification": "Good",
+        "classification": "Inaccuracy",
         "time_spent": 8.0,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Nxd5",
@@ -5197,7 +5197,7 @@
       },
       {
         "san": "Nb6",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 5.899999999999977,
         "phase": "middlegame"
       },
@@ -5227,19 +5227,19 @@
       },
       {
         "san": "d3",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 4.199999999999932,
         "phase": "middlegame"
       },
       {
         "san": "Qf6",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 6.7999999999999545,
         "phase": "middlegame"
       },
       {
         "san": "Be3",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 2.2000000000000455,
         "phase": "middlegame"
       },
@@ -5251,7 +5251,7 @@
       },
       {
         "san": "Qxc7",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 3.7000000000000455,
         "phase": "middlegame"
       },
@@ -5311,19 +5311,19 @@
       },
       {
         "san": "Bxb6",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 1.0,
         "phase": "middlegame"
       },
       {
         "san": "d5",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 7.900000000000034,
         "phase": "middlegame"
       },
       {
         "san": "exd5",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 8.200000000000045,
         "phase": "middlegame"
       },
@@ -5331,43 +5331,43 @@
         "san": "Qxb6",
         "classification": "Best",
         "time_spent": 4.199999999999989,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rb1",
         "classification": "Excellent",
         "time_spent": 1.599999999999966,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qc5+",
         "classification": "Best",
         "time_spent": 9.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kd2",
         "classification": "Excellent",
         "time_spent": 2.1000000000000227,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bh6+",
         "classification": "Best",
         "time_spent": 8.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Ke1",
         "classification": "Forced",
         "time_spent": 3.599999999999966,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qc3#",
         "classification": "Best",
         "time_spent": 3.8999999999999773,
-        "phase": "middlegame"
+        "phase": "endgame"
       }
     ]
   },
@@ -5377,12 +5377,12 @@
     "black": "rastone98",
     "white_elo": 800,
     "black_elo": 798,
-    "white_rating": 990,
-    "black_rating": 1130,
-    "white_accuracy": 68.2,
-    "black_accuracy": 82.8,
+    "white_rating": 1006,
+    "black_rating": 1129,
+    "white_accuracy": 69.7,
+    "black_accuracy": 83.9,
     "opening": "Van't Kruijs Opening",
-    "engine": "stockfish16",
+    "engine": "stockfish18",
     "depth": 22,
     "pv": 2,
     "result": "0-1",
@@ -5391,13 +5391,13 @@
       {
         "san": "e3",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 1.7000000000000455,
         "phase": "opening"
       },
       {
         "san": "d6",
         "classification": "Good",
-        "time_spent": null,
+        "time_spent": 0.6000000000000227,
         "phase": "opening"
       },
       {
@@ -5408,13 +5408,13 @@
       },
       {
         "san": "Nf6",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 0.6000000000000227,
         "phase": "opening"
       },
       {
         "san": "h3",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 2.400000000000091,
         "phase": "opening"
       },
@@ -5426,7 +5426,7 @@
       },
       {
         "san": "g4",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 1.6999999999999318,
         "phase": "opening"
       },
@@ -5474,13 +5474,13 @@
       },
       {
         "san": "Nc3",
-        "classification": "Inaccuracy",
+        "classification": "Best",
         "time_spent": 2.3999999999999773,
         "phase": "opening"
       },
       {
         "san": "Nc6",
-        "classification": "Inaccuracy",
+        "classification": "Excellent",
         "time_spent": 8.699999999999932,
         "phase": "opening"
       },
@@ -5512,53 +5512,53 @@
         "san": "Nxd5",
         "classification": "Good",
         "time_spent": 16.59999999999991,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "cxd5",
         "classification": "Perfect",
         "time_spent": 2.2000000000000455,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Qd3",
         "classification": "Good",
         "time_spent": 6.2000000000000455,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "e5",
         "classification": "Excellent",
         "time_spent": 7.100000000000023,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Bb2",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 6.399999999999977,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "exd4",
-        "classification": "Mistake",
+        "classification": "Inaccuracy",
         "time_spent": 3.8999999999999773,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "exd4",
         "classification": "Mistake",
         "time_spent": 4.400000000000034,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Qxg5",
         "classification": "Best",
         "time_spent": 1.7999999999999545,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Nf3",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 9.800000000000011,
         "phase": "middlegame"
       },
@@ -5570,7 +5570,7 @@
       },
       {
         "san": "Kd1",
-        "classification": "Good",
+        "classification": "Inaccuracy",
         "time_spent": 5.099999999999966,
         "phase": "middlegame"
       },
@@ -5600,7 +5600,7 @@
       },
       {
         "san": "Bxh3",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 4.699999999999932,
         "phase": "middlegame"
       },
@@ -5630,7 +5630,7 @@
       },
       {
         "san": "Nh4",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 9.0,
         "phase": "middlegame"
       },
@@ -5666,7 +5666,7 @@
       },
       {
         "san": "Qxd5",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 1.8000000000000114,
         "phase": "middlegame"
       },
@@ -5690,13 +5690,13 @@
       },
       {
         "san": "Rgf2",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 18.30000000000001,
         "phase": "middlegame"
       },
       {
         "san": "Re7",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 13.599999999999966,
         "phase": "middlegame"
       },
@@ -5708,7 +5708,7 @@
       },
       {
         "san": "Qg3",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 17.19999999999999,
         "phase": "middlegame"
       },
@@ -5738,7 +5738,7 @@
       },
       {
         "san": "Bxd4",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 8.599999999999966,
         "phase": "middlegame"
       },
@@ -5746,67 +5746,67 @@
         "san": "Qxd4",
         "classification": "Best",
         "time_spent": 2.1000000000000227,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rf4",
         "classification": "Best",
         "time_spent": 8.200000000000045,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qd2",
         "classification": "Excellent",
         "time_spent": 13.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qxa7",
         "classification": "Mistake",
         "time_spent": 9.099999999999966,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qxc2+",
         "classification": "Perfect",
         "time_spent": 4.599999999999966,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Ka1",
         "classification": "Forced",
         "time_spent": 4.400000000000034,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qc3+",
         "classification": "Excellent",
         "time_spent": 6.800000000000011,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Ka2",
         "classification": "Excellent",
         "time_spent": 4.5,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Re2+",
         "classification": "Best",
         "time_spent": 1.1000000000000227,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kb1",
         "classification": "Forced",
         "time_spent": 3.8999999999999773,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qb2#",
         "classification": "Best",
         "time_spent": 1.099999999999966,
-        "phase": "middlegame"
+        "phase": "endgame"
       }
     ]
   },
@@ -5816,12 +5816,12 @@
     "black": "rastone98",
     "white_elo": 750,
     "black_elo": 775,
-    "white_rating": 1102,
-    "black_rating": 1294,
-    "white_accuracy": 84.4,
-    "black_accuracy": 93.2,
+    "white_rating": 1104,
+    "black_rating": 1277,
+    "white_accuracy": 86.0,
+    "black_accuracy": 92.1,
     "opening": "Pirc Defense",
-    "engine": "stockfish16",
+    "engine": "stockfish18",
     "depth": 22,
     "pv": 2,
     "result": "0-1",
@@ -5830,24 +5830,24 @@
       {
         "san": "e4",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 7.100000000000023,
         "phase": "opening"
       },
       {
         "san": "d6",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 1.3999999999999773,
         "phase": "opening"
       },
       {
         "san": "Nc3",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 2.3999999999999773,
         "phase": "opening"
       },
       {
         "san": "Nf6",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 0.8000000000000682,
         "phase": "opening"
       },
@@ -5889,7 +5889,7 @@
       },
       {
         "san": "Ng5",
-        "classification": "Inaccuracy",
+        "classification": "Mistake",
         "time_spent": 3.8999999999999773,
         "phase": "opening"
       },
@@ -5913,7 +5913,7 @@
       },
       {
         "san": "exd5",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 3.5,
         "phase": "opening"
       },
@@ -5925,7 +5925,7 @@
       },
       {
         "san": "Ba3",
-        "classification": "Good",
+        "classification": "Inaccuracy",
         "time_spent": 6.5,
         "phase": "opening"
       },
@@ -5943,7 +5943,7 @@
       },
       {
         "san": "d4",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 31.40000000000009,
         "phase": "opening"
       },
@@ -5991,7 +5991,7 @@
       },
       {
         "san": "Ng3",
-        "classification": "Mistake",
+        "classification": "Inaccuracy",
         "time_spent": 2.0,
         "phase": "middlegame"
       },
@@ -6015,7 +6015,7 @@
       },
       {
         "san": "Bd7",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 7.399999999999977,
         "phase": "middlegame"
       },
@@ -6027,7 +6027,7 @@
       },
       {
         "san": "Nc6",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 6.100000000000023,
         "phase": "middlegame"
       },
@@ -6045,7 +6045,7 @@
       },
       {
         "san": "cxd4",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 7.600000000000023,
         "phase": "middlegame"
       },
@@ -6069,7 +6069,7 @@
       },
       {
         "san": "Kd1",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 4.7999999999999545,
         "phase": "middlegame"
       },
@@ -6083,145 +6083,145 @@
         "san": "Bxd4",
         "classification": "Excellent",
         "time_spent": 13.700000000000045,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bxd4",
         "classification": "Excellent",
         "time_spent": 8.299999999999955,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Re1",
         "classification": "Best",
         "time_spent": 6.099999999999966,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "c6",
         "classification": "Excellent",
         "time_spent": 17.80000000000001,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Re7",
         "classification": "Excellent",
         "time_spent": 3.5,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Be6",
         "classification": "Excellent",
         "time_spent": 40.30000000000001,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Re8+",
         "classification": "Excellent",
         "time_spent": 8.699999999999989,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kg7",
         "classification": "Forced",
         "time_spent": 1.1999999999999886,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Re7",
         "classification": "Excellent",
         "time_spent": 34.5,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qg3",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 28.19999999999999,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rxb7",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 18.100000000000023,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qxg2",
         "classification": "Best",
         "time_spent": 4.600000000000023,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rxa7",
         "classification": "Excellent",
         "time_spent": 4.199999999999989,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bxa7",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 7.100000000000023,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rxc6",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 7.100000000000023,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qxf3+",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 1.8999999999999773,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kc1",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 8.399999999999977,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qxc6+",
         "classification": "Best",
         "time_spent": 0.10000000000002274,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kb2",
         "classification": "Excellent",
         "time_spent": 2.6000000000000227,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bd4+",
         "classification": "Best",
         "time_spent": 1.5,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Ka3",
         "classification": "Best",
         "time_spent": 2.8999999999999773,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bd7",
         "classification": "Excellent",
         "time_spent": 9.199999999999989,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "b4",
         "classification": "Excellent",
         "time_spent": 3.3000000000000114,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qa4#",
         "classification": "Best",
         "time_spent": 3.599999999999966,
-        "phase": "middlegame"
+        "phase": "endgame"
       }
     ]
   },
@@ -6231,12 +6231,12 @@
     "black": "alex271828182",
     "white_elo": 775,
     "black_elo": 765,
-    "white_rating": 986,
-    "black_rating": 974,
-    "white_accuracy": 78.6,
-    "black_accuracy": 59.6,
+    "white_rating": 1037,
+    "black_rating": 1015,
+    "white_accuracy": 78.7,
+    "black_accuracy": 59.5,
     "opening": "Italian Game: Anti-Fried Liver Defense",
-    "engine": "stockfish16",
+    "engine": "stockfish18",
     "depth": 22,
     "pv": 2,
     "result": "1/2-1/2",
@@ -6245,13 +6245,13 @@
       {
         "san": "e4",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 0.10000000000002274,
         "phase": "opening"
       },
       {
         "san": "e5",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 1.3999999999999773,
         "phase": "opening"
       },
       {
@@ -6280,7 +6280,7 @@
       },
       {
         "san": "O-O",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 4.300000000000068,
         "phase": "opening"
       },
@@ -6304,19 +6304,19 @@
       },
       {
         "san": "c3",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 3.2999999999999545,
         "phase": "opening"
       },
       {
         "san": "O-O",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 2.1000000000000227,
         "phase": "opening"
       },
       {
         "san": "b4",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 1.1000000000000227,
         "phase": "opening"
       },
@@ -6328,7 +6328,7 @@
       },
       {
         "san": "d4",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 1.1000000000000227,
         "phase": "opening"
       },
@@ -6376,13 +6376,13 @@
       },
       {
         "san": "Nxg5",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 5.399999999999977,
         "phase": "opening"
       },
       {
         "san": "hxg5",
-        "classification": "Best",
+        "classification": "Perfect",
         "time_spent": 1.3999999999999773,
         "phase": "middlegame"
       },
@@ -6406,7 +6406,7 @@
       },
       {
         "san": "Nxc4",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 19.700000000000045,
         "phase": "middlegame"
       },
@@ -6418,7 +6418,7 @@
       },
       {
         "san": "Bd6",
-        "classification": "Good",
+        "classification": "Inaccuracy",
         "time_spent": 13.0,
         "phase": "middlegame"
       },
@@ -6484,7 +6484,7 @@
       },
       {
         "san": "Qxg4",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 8.399999999999977,
         "phase": "middlegame"
       },
@@ -6508,7 +6508,7 @@
       },
       {
         "san": "Ne4",
-        "classification": "Mistake",
+        "classification": "Blunder",
         "time_spent": 3.7000000000000455,
         "phase": "middlegame"
       },
@@ -6538,25 +6538,25 @@
       },
       {
         "san": "cxd6",
-        "classification": "Best",
+        "classification": "Perfect",
         "time_spent": 17.30000000000001,
         "phase": "middlegame"
       },
       {
         "san": "Rfe1",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 3.3000000000000114,
         "phase": "middlegame"
       },
       {
         "san": "Rad8",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 22.19999999999999,
         "phase": "middlegame"
       },
       {
         "san": "Qxa7",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 4.699999999999989,
         "phase": "middlegame"
       },
@@ -6628,13 +6628,13 @@
       },
       {
         "san": "Qe7",
-        "classification": "Perfect",
+        "classification": "Best",
         "time_spent": 8.199999999999989,
         "phase": "middlegame"
       },
       {
         "san": "Rbb8",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 19.30000000000001,
         "phase": "middlegame"
       },
@@ -6646,13 +6646,13 @@
       },
       {
         "san": "Rbd8",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 35.5,
         "phase": "middlegame"
       },
       {
         "san": "Rad1",
-        "classification": "Best",
+        "classification": "Perfect",
         "time_spent": 7.0,
         "phase": "middlegame"
       },
@@ -6670,7 +6670,7 @@
       },
       {
         "san": "Qg8",
-        "classification": "Mistake",
+        "classification": "Inaccuracy",
         "time_spent": 35.5,
         "phase": "middlegame"
       },
@@ -6678,148 +6678,672 @@
         "san": "Rxc2",
         "classification": "Perfect",
         "time_spent": 6.900000000000034,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qh7",
         "classification": "Mistake",
         "time_spent": 18.5,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rc8",
-        "classification": "Mistake",
+        "classification": "Good",
         "time_spent": 5.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qf5",
-        "classification": "Mistake",
+        "classification": "Good",
         "time_spent": 9.399999999999991,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rxd8",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 9.800000000000011,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rxd8",
         "classification": "Best",
         "time_spent": 39.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qxd8+",
         "classification": "Best",
         "time_spent": 4.2999999999999545,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kh7",
         "classification": "Forced",
         "time_spent": 3.1000000000000014,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qf8",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 15.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qa5",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 3.3000000000000043,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "d8=Q",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 6.0,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qxe1+",
         "classification": "Best",
         "time_spent": 2.6999999999999957,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kg2",
         "classification": "Forced",
         "time_spent": 0.8000000000000114,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qe4+",
         "classification": "Best",
         "time_spent": 2.3999999999999986,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kh3",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 12.199999999999989,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qf5+",
         "classification": "Best",
         "time_spent": 2.3000000000000043,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kg2",
-        "classification": "Perfect",
+        "classification": "Best",
         "time_spent": 5.400000000000034,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qe4+",
         "classification": "Best",
         "time_spent": 1.7999999999999972,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kg1",
         "classification": "Blunder",
         "time_spent": 9.300000000000011,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qe1+",
         "classification": "Best",
         "time_spent": 1.2000000000000028,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Kg2",
         "classification": "Forced",
         "time_spent": 0.8999999999999773,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qe4+",
         "classification": "Best",
         "time_spent": 1.3999999999999986,
-        "phase": "middlegame"
+        "phase": "endgame"
       }
     ]
   },
   {
     "game_id": "00018",
+    "white": "mykingdome",
+    "black": "rastone98",
+    "white_elo": 823,
+    "black_elo": 790,
+    "white_rating": 1375,
+    "black_rating": 1089,
+    "white_accuracy": 90.6,
+    "black_accuracy": 78.8,
+    "opening": "Pirc Defense",
+    "engine": "stockfish18",
+    "depth": 22,
+    "pv": 2,
+    "result": "1-0",
+    "date": "2026.03.24",
+    "moves": [
+      {
+        "san": "e4",
+        "classification": "Opening",
+        "time_spent": 0.20000000000004547,
+        "phase": "opening"
+      },
+      {
+        "san": "d6",
+        "classification": "Opening",
+        "time_spent": 3.1000000000000227,
+        "phase": "opening"
+      },
+      {
+        "san": "d4",
+        "classification": "Opening",
+        "time_spent": 0.8999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "Nf6",
+        "classification": "Opening",
+        "time_spent": 2.2999999999999545,
+        "phase": "opening"
+      },
+      {
+        "san": "Nc3",
+        "classification": "Best",
+        "time_spent": 4.5,
+        "phase": "opening"
+      },
+      {
+        "san": "e6",
+        "classification": "Excellent",
+        "time_spent": 3.300000000000068,
+        "phase": "opening"
+      },
+      {
+        "san": "Bf4",
+        "classification": "Excellent",
+        "time_spent": 2.3999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "g6",
+        "classification": "Good",
+        "time_spent": 5.399999999999977,
+        "phase": "opening"
+      },
+      {
+        "san": "Bc4",
+        "classification": "Good",
+        "time_spent": 2.5,
+        "phase": "opening"
+      },
+      {
+        "san": "Bg7",
+        "classification": "Good",
+        "time_spent": 4.2999999999999545,
+        "phase": "opening"
+      },
+      {
+        "san": "Nf3",
+        "classification": "Excellent",
+        "time_spent": 5.2999999999999545,
+        "phase": "opening"
+      },
+      {
+        "san": "O-O",
+        "classification": "Excellent",
+        "time_spent": 1.1000000000000227,
+        "phase": "opening"
+      },
+      {
+        "san": "O-O",
+        "classification": "Excellent",
+        "time_spent": 3.1000000000000227,
+        "phase": "opening"
+      },
+      {
+        "san": "e5",
+        "classification": "Mistake",
+        "time_spent": 7.2000000000000455,
+        "phase": "opening"
+      },
+      {
+        "san": "dxe5",
+        "classification": "Perfect",
+        "time_spent": 5.600000000000023,
+        "phase": "opening"
+      },
+      {
+        "san": "dxe5",
+        "classification": "Best",
+        "time_spent": 3.0,
+        "phase": "opening"
+      },
+      {
+        "san": "Bxe5",
+        "classification": "Good",
+        "time_spent": 3.0,
+        "phase": "opening"
+      },
+      {
+        "san": "Qxd1",
+        "classification": "Excellent",
+        "time_spent": 6.7999999999999545,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Rfxd1",
+        "classification": "Best",
+        "time_spent": 2.0,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bg4",
+        "classification": "Best",
+        "time_spent": 5.7000000000000455,
+        "phase": "middlegame"
+      },
+      {
+        "san": "h3",
+        "classification": "Good",
+        "time_spent": 4.899999999999977,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bxf3",
+        "classification": "Best",
+        "time_spent": 1.7999999999999545,
+        "phase": "middlegame"
+      },
+      {
+        "san": "gxf3",
+        "classification": "Perfect",
+        "time_spent": 1.8000000000000682,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Nc6",
+        "classification": "Good",
+        "time_spent": 0.10000000000002274,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bxc7",
+        "classification": "Best",
+        "time_spent": 4.199999999999932,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Rac8",
+        "classification": "Excellent",
+        "time_spent": 4.399999999999977,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Nd5",
+        "classification": "Mistake",
+        "time_spent": 7.2000000000000455,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Nxd5",
+        "classification": "Best",
+        "time_spent": 5.100000000000023,
+        "phase": "middlegame"
+      },
+      {
+        "san": "exd5",
+        "classification": "Best",
+        "time_spent": 5.699999999999932,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bxb2",
+        "classification": "Good",
+        "time_spent": 2.5,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Rab1",
+        "classification": "Best",
+        "time_spent": 1.6000000000000227,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Be5",
+        "classification": "Blunder",
+        "time_spent": 13.0,
+        "phase": "middlegame"
+      },
+      {
+        "san": "dxc6",
+        "classification": "Inaccuracy",
+        "time_spent": 2.1000000000000227,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bxc7",
+        "classification": "Mistake",
+        "time_spent": 0.8999999999999773,
+        "phase": "endgame"
+      },
+      {
+        "san": "cxb7",
+        "classification": "Best",
+        "time_spent": 1.7999999999999545,
+        "phase": "endgame"
+      },
+      {
+        "san": "Rcd8",
+        "classification": "Best",
+        "time_spent": 10.600000000000023,
+        "phase": "endgame"
+      },
+      {
+        "san": "Rxd8",
+        "classification": "Best",
+        "time_spent": 9.0,
+        "phase": "endgame"
+      },
+      {
+        "san": "Rxd8",
+        "classification": "Best",
+        "time_spent": 0.7999999999999545,
+        "phase": "endgame"
+      },
+      {
+        "san": "Re1",
+        "classification": "Good",
+        "time_spent": 28.200000000000045,
+        "phase": "endgame"
+      },
+      {
+        "san": "Rd2",
+        "classification": "Mistake",
+        "time_spent": 19.5,
+        "phase": "endgame"
+      },
+      {
+        "san": "Re7",
+        "classification": "Best",
+        "time_spent": 5.800000000000011,
+        "phase": "endgame"
+      },
+      {
+        "san": "Kh8",
+        "classification": "Good",
+        "time_spent": 22.400000000000034,
+        "phase": "endgame"
+      },
+      {
+        "san": "Rxc7",
+        "classification": "Best",
+        "time_spent": 6.300000000000011,
+        "phase": "endgame"
+      }
+    ]
+  },
+  {
+    "game_id": "00019",
+    "white": "rastone98",
+    "black": "AJtayde",
+    "white_elo": 798,
+    "black_elo": 815,
+    "white_rating": 785,
+    "black_rating": 915,
+    "white_accuracy": 55.0,
+    "black_accuracy": 77.1,
+    "opening": "Horwitz Defense",
+    "engine": "stockfish18",
+    "depth": 22,
+    "pv": 2,
+    "result": "0-1",
+    "date": "2026.03.24",
+    "moves": [
+      {
+        "san": "d4",
+        "classification": "Opening",
+        "time_spent": 1.2999999999999545,
+        "phase": "opening"
+      },
+      {
+        "san": "e6",
+        "classification": "Opening",
+        "time_spent": 2.2999999999999545,
+        "phase": "opening"
+      },
+      {
+        "san": "Nf3",
+        "classification": "Excellent",
+        "time_spent": 2.5,
+        "phase": "opening"
+      },
+      {
+        "san": "b6",
+        "classification": "Inaccuracy",
+        "time_spent": 3.1000000000000227,
+        "phase": "opening"
+      },
+      {
+        "san": "Bf4",
+        "classification": "Inaccuracy",
+        "time_spent": 1.0,
+        "phase": "opening"
+      },
+      {
+        "san": "Bb7",
+        "classification": "Excellent",
+        "time_spent": 4.0,
+        "phase": "opening"
+      },
+      {
+        "san": "Ne5",
+        "classification": "Inaccuracy",
+        "time_spent": 1.7000000000000455,
+        "phase": "opening"
+      },
+      {
+        "san": "Bd6",
+        "classification": "Inaccuracy",
+        "time_spent": 16.899999999999977,
+        "phase": "opening"
+      },
+      {
+        "san": "Nc3",
+        "classification": "Good",
+        "time_spent": 14.799999999999955,
+        "phase": "opening"
+      },
+      {
+        "san": "f6",
+        "classification": "Good",
+        "time_spent": 10.200000000000045,
+        "phase": "opening"
+      },
+      {
+        "san": "Nd3",
+        "classification": "Perfect",
+        "time_spent": 34.10000000000002,
+        "phase": "opening"
+      },
+      {
+        "san": "Bb4",
+        "classification": "Blunder",
+        "time_spent": 40.799999999999955,
+        "phase": "opening"
+      },
+      {
+        "san": "Qd2",
+        "classification": "Blunder",
+        "time_spent": 6.5,
+        "phase": "opening"
+      },
+      {
+        "san": "Bxc3",
+        "classification": "Best",
+        "time_spent": 7.900000000000091,
+        "phase": "opening"
+      },
+      {
+        "san": "Qxc3",
+        "classification": "Best",
+        "time_spent": 1.2000000000000455,
+        "phase": "opening"
+      },
+      {
+        "san": "Na6",
+        "classification": "Good",
+        "time_spent": 1.599999999999909,
+        "phase": "opening"
+      },
+      {
+        "san": "O-O-O",
+        "classification": "Excellent",
+        "time_spent": 2.8999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "c6",
+        "classification": "Inaccuracy",
+        "time_spent": 9.600000000000023,
+        "phase": "opening"
+      },
+      {
+        "san": "e4",
+        "classification": "Best",
+        "time_spent": 4.899999999999977,
+        "phase": "opening"
+      },
+      {
+        "san": "Qe7",
+        "classification": "Good",
+        "time_spent": 2.7000000000000455,
+        "phase": "opening"
+      },
+      {
+        "san": "d5",
+        "classification": "Mistake",
+        "time_spent": 9.200000000000045,
+        "phase": "opening"
+      },
+      {
+        "san": "cxd5",
+        "classification": "Best",
+        "time_spent": 9.5,
+        "phase": "opening"
+      },
+      {
+        "san": "exd5",
+        "classification": "Perfect",
+        "time_spent": 1.0,
+        "phase": "opening"
+      },
+      {
+        "san": "Rc8",
+        "classification": "Best",
+        "time_spent": 20.19999999999999,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qd4",
+        "classification": "Best",
+        "time_spent": 16.099999999999966,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Nc7",
+        "classification": "Blunder",
+        "time_spent": 51.5,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bxc7",
+        "classification": "Best",
+        "time_spent": 10.300000000000011,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Rxc7",
+        "classification": "Excellent",
+        "time_spent": 4.399999999999977,
+        "phase": "middlegame"
+      },
+      {
+        "san": "dxe6",
+        "classification": "Inaccuracy",
+        "time_spent": 4.100000000000023,
+        "phase": "middlegame"
+      },
+      {
+        "san": "dxe6",
+        "classification": "Best",
+        "time_spent": 14.0,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Be2",
+        "classification": "Blunder",
+        "time_spent": 17.5,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bxg2",
+        "classification": "Mistake",
+        "time_spent": 2.6000000000000227,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Rhg1",
+        "classification": "Good",
+        "time_spent": 0.8999999999999773,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bh3",
+        "classification": "Mistake",
+        "time_spent": 11.300000000000011,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bh5+",
+        "classification": "Blunder",
+        "time_spent": 6.199999999999989,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Kf8",
+        "classification": "Blunder",
+        "time_spent": 10.299999999999955,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qd8+",
+        "classification": "Blunder",
+        "time_spent": 16.600000000000023,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qxd8",
+        "classification": "Perfect",
+        "time_spent": 5.300000000000011,
+        "phase": "middlegame"
+      }
+    ]
+  },
+  {
+    "game_id": "00020",
     "white": "rastone98",
     "black": "HCC_29",
     "white_elo": 798,
     "black_elo": 782,
-    "white_rating": 1388,
-    "black_rating": 1084,
-    "white_accuracy": 93.8,
-    "black_accuracy": 80.6,
+    "white_rating": 1395,
+    "black_rating": 1089,
+    "white_accuracy": 90.3,
+    "black_accuracy": 78.7,
     "opening": "Caro-Kann Defense",
-    "engine": "stockfish16",
+    "engine": "stockfish18",
     "depth": 22,
     "pv": 2,
     "result": "1-0",
@@ -6828,18 +7352,18 @@
       {
         "san": "e4",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 0.10000000000002274,
         "phase": "opening"
       },
       {
         "san": "c6",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 2.7000000000000455,
         "phase": "opening"
       },
       {
         "san": "Nf3",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 1.2999999999999545,
         "phase": "opening"
       },
@@ -6881,7 +7405,7 @@
       },
       {
         "san": "Qxd7",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 0.10000000000002274,
         "phase": "opening"
       },
@@ -6899,7 +7423,7 @@
       },
       {
         "san": "Ne5",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 4.399999999999977,
         "phase": "opening"
       },
@@ -6911,7 +7435,7 @@
       },
       {
         "san": "d4",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 0.7000000000000455,
         "phase": "opening"
       },
@@ -6923,7 +7447,7 @@
       },
       {
         "san": "Nf3",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 11.0,
         "phase": "opening"
       },
@@ -6953,7 +7477,7 @@
       },
       {
         "san": "O-O",
-        "classification": "Good",
+        "classification": "Inaccuracy",
         "time_spent": 1.3999999999999773,
         "phase": "opening"
       },
@@ -6965,39 +7489,39 @@
       },
       {
         "san": "Nb4",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 4.800000000000068,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Qd2",
         "classification": "Good",
         "time_spent": 16.5,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Rfe8",
         "classification": "Inaccuracy",
         "time_spent": 3.199999999999932,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "a3",
         "classification": "Good",
         "time_spent": 1.1000000000000227,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Qa5",
         "classification": "Best",
         "time_spent": 7.7000000000000455,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Ne5",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 17.299999999999955,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Bxe5",
@@ -7019,7 +7543,7 @@
       },
       {
         "san": "Rg5",
-        "classification": "Perfect",
+        "classification": "Best",
         "time_spent": 4.7000000000000455,
         "phase": "middlegame"
       },
@@ -7031,7 +7555,7 @@
       },
       {
         "san": "Rxg7+",
-        "classification": "Best",
+        "classification": "Perfect",
         "time_spent": 27.799999999999955,
         "phase": "middlegame"
       },
@@ -7074,17 +7598,17 @@
     ]
   },
   {
-    "game_id": "00019",
+    "game_id": "00021",
     "white": "federico307",
     "black": "rastone98",
     "white_elo": 783,
     "black_elo": 807,
-    "white_rating": 1056,
-    "black_rating": 1065,
+    "white_rating": 1044,
+    "black_rating": 1045,
     "white_accuracy": 59.3,
-    "black_accuracy": 76.2,
+    "black_accuracy": 77.3,
     "opening": "Pirc Defense",
-    "engine": "stockfish16",
+    "engine": "stockfish18",
     "depth": 22,
     "pv": 2,
     "result": "0-1",
@@ -7093,13 +7617,13 @@
       {
         "san": "e4",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 0.10000000000002274,
         "phase": "opening"
       },
       {
         "san": "d6",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 2.7999999999999545,
         "phase": "opening"
       },
       {
@@ -7128,13 +7652,13 @@
       },
       {
         "san": "dxc5",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 1.6000000000000227,
         "phase": "opening"
       },
       {
         "san": "dxc5",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 0.7000000000000455,
         "phase": "opening"
       },
@@ -7146,7 +7670,7 @@
       },
       {
         "san": "Nxd8",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 0.8999999999999773,
         "phase": "opening"
       },
@@ -7158,43 +7682,43 @@
       },
       {
         "san": "Nc6",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 2.7999999999999545,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Bxc6+",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 2.099999999999909,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "bxc6",
         "classification": "Best",
         "time_spent": 0.8999999999999773,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Nf3",
         "classification": "Best",
         "time_spent": 1.400000000000091,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "g6",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 0.7000000000000455,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "O-O",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 1.0,
         "phase": "middlegame"
       },
       {
         "san": "Nf6",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 0.7000000000000455,
         "phase": "middlegame"
       },
@@ -7206,7 +7730,7 @@
       },
       {
         "san": "Bg7",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 0.8999999999999773,
         "phase": "middlegame"
       },
@@ -7278,13 +7802,13 @@
       },
       {
         "san": "Rac8",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 8.299999999999955,
         "phase": "middlegame"
       },
       {
         "san": "Rad1",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 1.7999999999999545,
         "phase": "middlegame"
       },
@@ -7308,7 +7832,7 @@
       },
       {
         "san": "c3",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 28.800000000000068,
         "phase": "middlegame"
       },
@@ -7368,7 +7892,7 @@
       },
       {
         "san": "Nd7",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 4.199999999999989,
         "phase": "middlegame"
       },
@@ -7386,7 +7910,7 @@
       },
       {
         "san": "Be6",
-        "classification": "Blunder",
+        "classification": "Mistake",
         "time_spent": 12.600000000000023,
         "phase": "middlegame"
       },
@@ -7406,61 +7930,61 @@
         "san": "Nxe5",
         "classification": "Best",
         "time_spent": 6.300000000000011,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rxd4",
         "classification": "Best",
         "time_spent": 16.30000000000001,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "cxd4",
         "classification": "Best",
         "time_spent": 0.0999999999999659,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bb3",
         "classification": "Excellent",
         "time_spent": 4.599999999999966,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Re1",
         "classification": "Excellent",
         "time_spent": 47.30000000000001,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rd2",
         "classification": "Excellent",
         "time_spent": 7.5,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "f3",
         "classification": "Excellent",
         "time_spent": 5.300000000000011,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rxd4",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 6.300000000000011,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Nc6",
         "classification": "Best",
         "time_spent": 3.099999999999966,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rd7",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 13.699999999999989,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Rxe7",
@@ -7470,7 +7994,7 @@
       },
       {
         "san": "Rd1+",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 6.300000000000011,
         "phase": "endgame"
       },
@@ -7500,7 +8024,7 @@
       },
       {
         "san": "Ne5",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 6.5,
         "phase": "endgame"
       },
@@ -7513,17 +8037,414 @@
     ]
   },
   {
-    "game_id": "00020",
+    "game_id": "00022",
+    "white": "JIF974",
+    "black": "rastone98",
+    "white_elo": 783,
+    "black_elo": 781,
+    "white_rating": 1102,
+    "black_rating": 1109,
+    "white_accuracy": 68.9,
+    "black_accuracy": 75.5,
+    "opening": "East Indian Defense",
+    "engine": "stockfish18",
+    "depth": 22,
+    "pv": 2,
+    "result": "1/2-1/2",
+    "date": "2026.03.24",
+    "moves": [
+      {
+        "san": "d4",
+        "classification": "Opening",
+        "time_spent": 1.5,
+        "phase": "opening"
+      },
+      {
+        "san": "Nf6",
+        "classification": "Opening",
+        "time_spent": 3.2000000000000455,
+        "phase": "opening"
+      },
+      {
+        "san": "Nf3",
+        "classification": "Opening",
+        "time_spent": 0.8999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "g6",
+        "classification": "Opening",
+        "time_spent": 1.599999999999909,
+        "phase": "opening"
+      },
+      {
+        "san": "Nc3",
+        "classification": "Good",
+        "time_spent": 3.7000000000000455,
+        "phase": "opening"
+      },
+      {
+        "san": "Bg7",
+        "classification": "Good",
+        "time_spent": 0.8000000000000682,
+        "phase": "opening"
+      },
+      {
+        "san": "e4",
+        "classification": "Best",
+        "time_spent": 2.7999999999999545,
+        "phase": "opening"
+      },
+      {
+        "san": "d6",
+        "classification": "Opening",
+        "time_spent": 1.1999999999999318,
+        "phase": "opening"
+      },
+      {
+        "san": "Bd3",
+        "classification": "Excellent",
+        "time_spent": 7.5,
+        "phase": "opening"
+      },
+      {
+        "san": "Bg4",
+        "classification": "Excellent",
+        "time_spent": 1.1000000000000227,
+        "phase": "opening"
+      },
+      {
+        "san": "Be3",
+        "classification": "Best",
+        "time_spent": 6.300000000000068,
+        "phase": "opening"
+      },
+      {
+        "san": "O-O",
+        "classification": "Best",
+        "time_spent": 1.3000000000000682,
+        "phase": "opening"
+      },
+      {
+        "san": "O-O",
+        "classification": "Excellent",
+        "time_spent": 1.2999999999999545,
+        "phase": "opening"
+      },
+      {
+        "san": "e6",
+        "classification": "Good",
+        "time_spent": 2.0,
+        "phase": "opening"
+      },
+      {
+        "san": "e5",
+        "classification": "Mistake",
+        "time_spent": 5.899999999999977,
+        "phase": "opening"
+      },
+      {
+        "san": "Bxf3",
+        "classification": "Mistake",
+        "time_spent": 3.099999999999909,
+        "phase": "opening"
+      },
+      {
+        "san": "Qxf3",
+        "classification": "Perfect",
+        "time_spent": 1.3999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "dxe5",
+        "classification": "Best",
+        "time_spent": 6.7000000000000455,
+        "phase": "opening"
+      },
+      {
+        "san": "dxe5",
+        "classification": "Perfect",
+        "time_spent": 1.7000000000000455,
+        "phase": "opening"
+      },
+      {
+        "san": "Nfd7",
+        "classification": "Blunder",
+        "time_spent": 6.7000000000000455,
+        "phase": "opening"
+      },
+      {
+        "san": "Qxb7",
+        "classification": "Perfect",
+        "time_spent": 11.899999999999977,
+        "phase": "opening"
+      },
+      {
+        "san": "Nc6",
+        "classification": "Best",
+        "time_spent": 15.199999999999932,
+        "phase": "opening"
+      },
+      {
+        "san": "Qxc6",
+        "classification": "Best",
+        "time_spent": 6.300000000000068,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Nxe5",
+        "classification": "Best",
+        "time_spent": 0.8999999999999773,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qe4",
+        "classification": "Good",
+        "time_spent": 11.299999999999955,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Rb8",
+        "classification": "Best",
+        "time_spent": 11.200000000000045,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Nb5",
+        "classification": "Mistake",
+        "time_spent": 37.30000000000001,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qd7",
+        "classification": "Mistake",
+        "time_spent": 22.799999999999955,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Rad1",
+        "classification": "Best",
+        "time_spent": 27.0,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Rxb5",
+        "classification": "Best",
+        "time_spent": 5.800000000000068,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bxb5",
+        "classification": "Best",
+        "time_spent": 1.599999999999966,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qxb5",
+        "classification": "Best",
+        "time_spent": 1.7999999999999545,
+        "phase": "middlegame"
+      },
+      {
+        "san": "b3",
+        "classification": "Excellent",
+        "time_spent": 16.80000000000001,
+        "phase": "middlegame"
+      },
+      {
+        "san": "f5",
+        "classification": "Excellent",
+        "time_spent": 13.200000000000045,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qa4",
+        "classification": "Good",
+        "time_spent": 17.80000000000001,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qb7",
+        "classification": "Inaccuracy",
+        "time_spent": 16.5,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bd4",
+        "classification": "Excellent",
+        "time_spent": 15.199999999999989,
+        "phase": "middlegame"
+      },
+      {
+        "san": "c5",
+        "classification": "Excellent",
+        "time_spent": 35.799999999999955,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bxc5",
+        "classification": "Excellent",
+        "time_spent": 18.400000000000034,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Rc8",
+        "classification": "Best",
+        "time_spent": 10.700000000000045,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qxa7",
+        "classification": "Best",
+        "time_spent": 40.5,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Nf3+",
+        "classification": "Excellent",
+        "time_spent": 7.199999999999989,
+        "phase": "middlegame"
+      },
+      {
+        "san": "gxf3",
+        "classification": "Best",
+        "time_spent": 16.099999999999966,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qxf3",
+        "classification": "Best",
+        "time_spent": 1.3999999999999773,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qa6",
+        "classification": "Blunder",
+        "time_spent": 37.80000000000001,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Rxc5",
+        "classification": "Blunder",
+        "time_spent": 15.100000000000023,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qxe6+",
+        "classification": "Perfect",
+        "time_spent": 3.1999999999999886,
+        "phase": "endgame"
+      },
+      {
+        "san": "Kh8",
+        "classification": "Best",
+        "time_spent": 10.5,
+        "phase": "endgame"
+      },
+      {
+        "san": "Rd8+",
+        "classification": "Excellent",
+        "time_spent": 1.8000000000000114,
+        "phase": "endgame"
+      },
+      {
+        "san": "Bf8",
+        "classification": "Forced",
+        "time_spent": 3.6999999999999886,
+        "phase": "endgame"
+      },
+      {
+        "san": "Rxf8+",
+        "classification": "Inaccuracy",
+        "time_spent": 1.6000000000000227,
+        "phase": "endgame"
+      },
+      {
+        "san": "Kg7",
+        "classification": "Forced",
+        "time_spent": 1.6000000000000227,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qf7+",
+        "classification": "Blunder",
+        "time_spent": 2.599999999999966,
+        "phase": "endgame"
+      },
+      {
+        "san": "Kh6",
+        "classification": "Forced",
+        "time_spent": 1.0,
+        "phase": "endgame"
+      },
+      {
+        "san": "Rh8",
+        "classification": "Excellent",
+        "time_spent": 17.600000000000023,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qg4+",
+        "classification": "Perfect",
+        "time_spent": 5.899999999999977,
+        "phase": "endgame"
+      },
+      {
+        "san": "Kh1",
+        "classification": "Forced",
+        "time_spent": 4.899999999999977,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qf3+",
+        "classification": "Perfect",
+        "time_spent": 5.800000000000011,
+        "phase": "endgame"
+      },
+      {
+        "san": "Kg1",
+        "classification": "Forced",
+        "time_spent": 3.1999999999999886,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qg4+",
+        "classification": "Perfect",
+        "time_spent": 0.8999999999999773,
+        "phase": "endgame"
+      },
+      {
+        "san": "Kh1",
+        "classification": "Forced",
+        "time_spent": 3.900000000000034,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qf3+",
+        "classification": "Perfect",
+        "time_spent": 0.6999999999999886,
+        "phase": "endgame"
+      },
+      {
+        "san": "Kg1",
+        "classification": "Forced",
+        "time_spent": 31.799999999999983,
+        "phase": "endgame"
+      }
+    ]
+  },
+  {
+    "game_id": "00023",
     "white": "rastone98",
     "black": "Hassan_12399",
     "white_elo": 789,
     "black_elo": 778,
-    "white_rating": 799,
-    "black_rating": 653,
-    "white_accuracy": 62.6,
-    "black_accuracy": 58.1,
+    "white_rating": 716,
+    "black_rating": 591,
+    "white_accuracy": 62.2,
+    "black_accuracy": 58.3,
     "opening": "Italian Game: Classical Variation, Giuoco Pianissimo",
-    "engine": "stockfish16",
+    "engine": "stockfish18",
     "depth": 22,
     "pv": 2,
     "result": "1-0",
@@ -7532,13 +8453,13 @@
       {
         "san": "e4",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 0.10000000000002274,
         "phase": "opening"
       },
       {
         "san": "e5",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 1.2000000000000455,
         "phase": "opening"
       },
       {
@@ -7621,7 +8542,7 @@
       },
       {
         "san": "dxc5",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 1.3000000000000682,
         "phase": "opening"
       },
@@ -7633,7 +8554,7 @@
       },
       {
         "san": "cxd4",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 3.1000000000000227,
         "phase": "opening"
       },
@@ -7645,31 +8566,31 @@
       },
       {
         "san": "exd4",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 2.0,
-        "phase": "middlegame"
+        "phase": "opening"
       },
       {
         "san": "Bb2",
         "classification": "Inaccuracy",
         "time_spent": 1.3999999999999773,
-        "phase": "middlegame"
+        "phase": "opening"
       },
       {
         "san": "Nxe4",
         "classification": "Inaccuracy",
         "time_spent": 13.099999999999909,
-        "phase": "middlegame"
+        "phase": "opening"
       },
       {
         "san": "Nbd2",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 9.5,
-        "phase": "middlegame"
+        "phase": "opening"
       },
       {
         "san": "Re8",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 15.800000000000068,
         "phase": "middlegame"
       },
@@ -7753,7 +8674,7 @@
       },
       {
         "san": "Bd7",
-        "classification": "Good",
+        "classification": "Inaccuracy",
         "time_spent": 36.400000000000034,
         "phase": "middlegame"
       },
@@ -7771,7 +8692,7 @@
       },
       {
         "san": "Rad1",
-        "classification": "Inaccuracy",
+        "classification": "Mistake",
         "time_spent": 25.69999999999999,
         "phase": "middlegame"
       },
@@ -7789,7 +8710,7 @@
       },
       {
         "san": "Bf5",
-        "classification": "Inaccuracy",
+        "classification": "Good",
         "time_spent": 33.10000000000002,
         "phase": "middlegame"
       },
@@ -7825,7 +8746,7 @@
       },
       {
         "san": "Bxf5",
-        "classification": "Blunder",
+        "classification": "Mistake",
         "time_spent": 26.399999999999977,
         "phase": "middlegame"
       },
@@ -7838,17 +8759,17 @@
     ]
   },
   {
-    "game_id": "00021",
+    "game_id": "00024",
     "white": "GuillaumeGS",
     "black": "rastone98",
     "white_elo": 768,
     "black_elo": 779,
-    "white_rating": 1227,
-    "black_rating": 1380,
-    "white_accuracy": 83.7,
-    "black_accuracy": 94.5,
+    "white_rating": 1176,
+    "black_rating": 1347,
+    "white_accuracy": 80.8,
+    "black_accuracy": 93.3,
     "opening": "Pirc Defense",
-    "engine": "stockfish16",
+    "engine": "stockfish18",
     "depth": 22,
     "pv": 2,
     "result": "0-1",
@@ -7857,13 +8778,13 @@
       {
         "san": "e4",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 0.20000000000004547,
         "phase": "opening"
       },
       {
         "san": "d6",
         "classification": "Opening",
-        "time_spent": null,
+        "time_spent": 6.0,
         "phase": "opening"
       },
       {
@@ -7874,7 +8795,7 @@
       },
       {
         "san": "Nf6",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 1.0,
         "phase": "opening"
       },
@@ -7898,7 +8819,7 @@
       },
       {
         "san": "Bd7",
-        "classification": "Excellent",
+        "classification": "Best",
         "time_spent": 1.2000000000000455,
         "phase": "opening"
       },
@@ -7910,7 +8831,7 @@
       },
       {
         "san": "Bg7",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 1.6999999999999318,
         "phase": "opening"
       },
@@ -7922,7 +8843,7 @@
       },
       {
         "san": "O-O",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 0.8999999999999773,
         "phase": "opening"
       },
@@ -7934,7 +8855,7 @@
       },
       {
         "san": "Bg4",
-        "classification": "Good",
+        "classification": "Inaccuracy",
         "time_spent": 8.0,
         "phase": "opening"
       },
@@ -7946,7 +8867,7 @@
       },
       {
         "san": "Nxd5",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 3.400000000000091,
         "phase": "opening"
       },
@@ -7984,31 +8905,31 @@
         "san": "Bxf3",
         "classification": "Best",
         "time_spent": 1.6000000000000227,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Qxf3",
-        "classification": "Best",
+        "classification": "Perfect",
         "time_spent": 3.599999999999909,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "e5",
         "classification": "Good",
         "time_spent": 13.800000000000068,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "b3",
         "classification": "Blunder",
         "time_spent": 2.2000000000000455,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "e4",
         "classification": "Perfect",
         "time_spent": 4.099999999999909,
-        "phase": "opening"
+        "phase": "middlegame"
       },
       {
         "san": "Bxe4",
@@ -8024,7 +8945,7 @@
       },
       {
         "san": "Qxe4",
-        "classification": "Best",
+        "classification": "Excellent",
         "time_spent": 1.3999999999999773,
         "phase": "middlegame"
       },
@@ -8060,7 +8981,7 @@
       },
       {
         "san": "Qb1",
-        "classification": "Excellent",
+        "classification": "Good",
         "time_spent": 22.69999999999999,
         "phase": "middlegame"
       },
@@ -8150,13 +9071,13 @@
       },
       {
         "san": "Bd8",
-        "classification": "Good",
+        "classification": "Inaccuracy",
         "time_spent": 29.19999999999999,
         "phase": "middlegame"
       },
       {
         "san": "Qe3",
-        "classification": "Inaccuracy",
+        "classification": "Mistake",
         "time_spent": 9.199999999999989,
         "phase": "middlegame"
       },
@@ -8164,18 +9085,470 @@
         "san": "Rxe3",
         "classification": "Best",
         "time_spent": 2.1999999999999886,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Bxe3",
         "classification": "Best",
         "time_spent": 3.3000000000000114,
-        "phase": "middlegame"
+        "phase": "endgame"
       },
       {
         "san": "Qxh3",
-        "classification": "Good",
+        "classification": "Excellent",
         "time_spent": 2.1000000000000227,
+        "phase": "endgame"
+      }
+    ]
+  },
+  {
+    "game_id": "00025",
+    "white": "rastone98",
+    "black": "JKalpi",
+    "white_elo": 781,
+    "black_elo": 798,
+    "white_rating": 805,
+    "black_rating": 1147,
+    "white_accuracy": 51.7,
+    "black_accuracy": 88.6,
+    "opening": "Russian Game",
+    "engine": "stockfish18",
+    "depth": 22,
+    "pv": 2,
+    "result": "0-1",
+    "date": "2026.03.24",
+    "moves": [
+      {
+        "san": "e4",
+        "classification": "Opening",
+        "time_spent": 0.10000000000002274,
+        "phase": "opening"
+      },
+      {
+        "san": "e5",
+        "classification": "Opening",
+        "time_spent": 1.7000000000000455,
+        "phase": "opening"
+      },
+      {
+        "san": "Nf3",
+        "classification": "Opening",
+        "time_spent": 1.0,
+        "phase": "opening"
+      },
+      {
+        "san": "Nf6",
+        "classification": "Opening",
+        "time_spent": 9.099999999999909,
+        "phase": "opening"
+      },
+      {
+        "san": "d3",
+        "classification": "Good",
+        "time_spent": 2.0,
+        "phase": "opening"
+      },
+      {
+        "san": "Nc6",
+        "classification": "Best",
+        "time_spent": 17.0,
+        "phase": "opening"
+      },
+      {
+        "san": "Bg5",
+        "classification": "Good",
+        "time_spent": 1.3999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "d5",
+        "classification": "Best",
+        "time_spent": 3.400000000000091,
+        "phase": "opening"
+      },
+      {
+        "san": "Bxf6",
+        "classification": "Good",
+        "time_spent": 3.2999999999999545,
+        "phase": "opening"
+      },
+      {
+        "san": "Qxf6",
+        "classification": "Mistake",
+        "time_spent": 2.0,
+        "phase": "opening"
+      },
+      {
+        "san": "exd5",
+        "classification": "Best",
+        "time_spent": 1.900000000000091,
+        "phase": "opening"
+      },
+      {
+        "san": "Nd4",
+        "classification": "Excellent",
+        "time_spent": 2.099999999999909,
+        "phase": "opening"
+      },
+      {
+        "san": "Nxd4",
+        "classification": "Good",
+        "time_spent": 6.699999999999932,
+        "phase": "opening"
+      },
+      {
+        "san": "exd4",
+        "classification": "Best",
+        "time_spent": 5.0,
+        "phase": "opening"
+      },
+      {
+        "san": "Be2",
+        "classification": "Best",
+        "time_spent": 13.200000000000045,
+        "phase": "opening"
+      },
+      {
+        "san": "c5",
+        "classification": "Inaccuracy",
+        "time_spent": 10.800000000000068,
+        "phase": "opening"
+      },
+      {
+        "san": "O-O",
+        "classification": "Excellent",
+        "time_spent": 1.2999999999999545,
+        "phase": "opening"
+      },
+      {
+        "san": "Bd6",
+        "classification": "Best",
+        "time_spent": 5.199999999999932,
+        "phase": "opening"
+      },
+      {
+        "san": "Bg4",
+        "classification": "Blunder",
+        "time_spent": 7.800000000000068,
+        "phase": "opening"
+      },
+      {
+        "san": "O-O",
+        "classification": "Blunder",
+        "time_spent": 5.400000000000091,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bxc8",
+        "classification": "Good",
+        "time_spent": 3.599999999999909,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Raxc8",
+        "classification": "Best",
+        "time_spent": 2.099999999999909,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Nd2",
+        "classification": "Best",
+        "time_spent": 2.400000000000091,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qh6",
+        "classification": "Good",
+        "time_spent": 2.2000000000000455,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Nc4",
+        "classification": "Blunder",
+        "time_spent": 3.699999999999932,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qxh2#",
+        "classification": "Best",
+        "time_spent": 3.0,
+        "phase": "middlegame"
+      }
+    ]
+  },
+  {
+    "game_id": "00026",
+    "white": "Asadgnc",
+    "black": "rastone98",
+    "white_elo": 810,
+    "black_elo": 773,
+    "white_rating": 1151,
+    "black_rating": 977,
+    "white_accuracy": 65.7,
+    "black_accuracy": 56.0,
+    "opening": "Pirc Defense",
+    "engine": "stockfish18",
+    "depth": 22,
+    "pv": 2,
+    "result": "1-0",
+    "date": "2026.03.24",
+    "moves": [
+      {
+        "san": "e4",
+        "classification": "Opening",
+        "time_spent": 0.20000000000004547,
+        "phase": "opening"
+      },
+      {
+        "san": "d6",
+        "classification": "Opening",
+        "time_spent": 1.3999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "d4",
+        "classification": "Opening",
+        "time_spent": 1.5,
+        "phase": "opening"
+      },
+      {
+        "san": "Nf6",
+        "classification": "Opening",
+        "time_spent": 1.8999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "Nc3",
+        "classification": "Best",
+        "time_spent": 11.399999999999977,
+        "phase": "opening"
+      },
+      {
+        "san": "g6",
+        "classification": "Opening",
+        "time_spent": 6.300000000000068,
+        "phase": "opening"
+      },
+      {
+        "san": "Bg5",
+        "classification": "Opening",
+        "time_spent": 1.2999999999999545,
+        "phase": "opening"
+      },
+      {
+        "san": "Bg7",
+        "classification": "Best",
+        "time_spent": 1.1999999999999318,
+        "phase": "opening"
+      },
+      {
+        "san": "Qd2",
+        "classification": "Best",
+        "time_spent": 2.800000000000068,
+        "phase": "opening"
+      },
+      {
+        "san": "O-O",
+        "classification": "Inaccuracy",
+        "time_spent": 1.3000000000000682,
+        "phase": "opening"
+      },
+      {
+        "san": "Bh6",
+        "classification": "Inaccuracy",
+        "time_spent": 1.3999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "Bxh6",
+        "classification": "Good",
+        "time_spent": 3.8999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "Qxh6",
+        "classification": "Perfect",
+        "time_spent": 0.10000000000002274,
+        "phase": "opening"
+      },
+      {
+        "san": "Ng4",
+        "classification": "Good",
+        "time_spent": 1.6000000000000227,
+        "phase": "opening"
+      },
+      {
+        "san": "Qg5",
+        "classification": "Excellent",
+        "time_spent": 5.5,
+        "phase": "opening"
+      },
+      {
+        "san": "Nf6",
+        "classification": "Good",
+        "time_spent": 4.100000000000023,
+        "phase": "opening"
+      },
+      {
+        "san": "Nd5",
+        "classification": "Blunder",
+        "time_spent": 3.8999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "Nbd7",
+        "classification": "Good",
+        "time_spent": 2.699999999999932,
+        "phase": "opening"
+      },
+      {
+        "san": "Nxf6+",
+        "classification": "Excellent",
+        "time_spent": 1.6000000000000227,
+        "phase": "opening"
+      },
+      {
+        "san": "Nxf6",
+        "classification": "Best",
+        "time_spent": 1.3999999999999773,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bd3",
+        "classification": "Excellent",
+        "time_spent": 3.099999999999909,
+        "phase": "middlegame"
+      },
+      {
+        "san": "c5",
+        "classification": "Best",
+        "time_spent": 28.800000000000068,
+        "phase": "middlegame"
+      },
+      {
+        "san": "e5",
+        "classification": "Mistake",
+        "time_spent": 3.1000000000000227,
+        "phase": "middlegame"
+      },
+      {
+        "san": "dxe5",
+        "classification": "Mistake",
+        "time_spent": 1.1999999999999318,
+        "phase": "middlegame"
+      },
+      {
+        "san": "dxe5",
+        "classification": "Best",
+        "time_spent": 1.2000000000000455,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Ne8",
+        "classification": "Mistake",
+        "time_spent": 25.100000000000023,
+        "phase": "middlegame"
+      },
+      {
+        "san": "h4",
+        "classification": "Inaccuracy",
+        "time_spent": 6.2999999999999545,
+        "phase": "middlegame"
+      },
+      {
+        "san": "f6",
+        "classification": "Mistake",
+        "time_spent": 13.300000000000011,
+        "phase": "middlegame"
+      },
+      {
+        "san": "exf6",
+        "classification": "Best",
+        "time_spent": 3.2000000000000455,
+        "phase": "middlegame"
+      },
+      {
+        "san": "exf6",
+        "classification": "Good",
+        "time_spent": 1.1000000000000227,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qh6",
+        "classification": "Mistake",
+        "time_spent": 2.699999999999932,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qe7+",
+        "classification": "Inaccuracy",
+        "time_spent": 5.699999999999989,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Ne2",
+        "classification": "Best",
+        "time_spent": 2.6000000000000227,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bf5",
+        "classification": "Inaccuracy",
+        "time_spent": 9.899999999999977,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bxf5",
+        "classification": "Perfect",
+        "time_spent": 9.600000000000023,
+        "phase": "middlegame"
+      },
+      {
+        "san": "gxf5",
+        "classification": "Best",
+        "time_spent": 1.5,
+        "phase": "middlegame"
+      },
+      {
+        "san": "O-O",
+        "classification": "Blunder",
+        "time_spent": 12.899999999999977,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qxe2",
+        "classification": "Perfect",
+        "time_spent": 3.6000000000000227,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Rae1",
+        "classification": "Excellent",
+        "time_spent": 2.5,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qg4",
+        "classification": "Excellent",
+        "time_spent": 13.0,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Re7",
+        "classification": "Best",
+        "time_spent": 3.7000000000000455,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Rd8",
+        "classification": "Blunder",
+        "time_spent": 19.80000000000001,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qxh7#",
+        "classification": "Best",
+        "time_spent": 2.7999999999999545,
         "phase": "middlegame"
       }
     ]

@@ -102,30 +102,20 @@ def extract_clock_time(comment):
         return int(h) * 3600 + int(m) * 60 + float(s)
     return None
 
-def compute_material(board):
+def compute_material_per_side(board):
+    white = 0
+    black = 0
+    for piece_type, value in PIECE_VALUES.items():
+        white += len(board.pieces(piece_type, chess.WHITE)) * value
+        black += len(board.pieces(piece_type, chess.BLACK)) * value
+    return white, black
+
+def count_non_pawn_pieces(board):
     total = 0
-    for piece_type in PIECE_VALUES:
-        value = PIECE_VALUES[piece_type]
-        total += len(board.pieces(piece_type, chess.WHITE)) * value
-        total += len(board.pieces(piece_type, chess.BLACK)) * value
+    for piece_type in [chess.KNIGHT, chess.BISHOP, chess.ROOK, chess.QUEEN]:
+        total += len(board.pieces(piece_type, chess.WHITE))
+        total += len(board.pieces(piece_type, chess.BLACK))
     return total
-
-def count_developed_minor_pieces(board):
-    developed = 0
-
-    for square, piece in board.piece_map().items():
-        if piece.piece_type in [chess.KNIGHT, chess.BISHOP]:
-
-            # se è su casa iniziale → NON sviluppato
-            if square in [
-                chess.B1, chess.G1, chess.B8, chess.G8,
-                chess.C1, chess.F1, chess.C8, chess.F8
-            ]:
-                continue
-
-            developed += 1
-
-    return developed
 
 def count_queens(board):
     return (
@@ -133,66 +123,35 @@ def count_queens(board):
         len(board.pieces(chess.QUEEN, chess.BLACK))
     )
 
-def castling_score(board):
-    score = 0
-
-    if board.king(chess.WHITE) in [chess.G1, chess.C1]:
-        score += 1
-    if board.king(chess.BLACK) in [chess.G8, chess.C8]:
-        score += 1
-
-    return score
-
-def count_all_pieces(board):
-    total = 0
-    for piece_type in chess.PIECE_TYPES:
-        if piece_type == chess.KING:
-            continue
-        total += len(board.pieces(piece_type, chess.WHITE))
-        total += len(board.pieces(piece_type, chess.BLACK))
-    return total
+def count_developed_minor_pieces(board):
+    developed = 0
+    starting_squares = {
+        chess.B1, chess.G1, chess.B8, chess.G8,
+        chess.C1, chess.F1, chess.C8, chess.F8
+    }
+    for square, piece in board.piece_map().items():
+        if piece.piece_type in [chess.KNIGHT, chess.BISHOP]:
+            if square not in starting_squares:
+                developed += 1
+    return developed
 
 def get_phase(board):
-
-    total_material = compute_material(board)
+    move_number = board.fullmove_number
+    white_mat, black_mat = compute_material_per_side(board)
+    total_mat = white_mat + black_mat
     queens = count_queens(board)
+    non_pawn_pieces = count_non_pawn_pieces(board)
     minor_dev = count_developed_minor_pieces(board)
-    castling = castling_score(board)
-    total_pieces = count_all_pieces(board)
-
-    # -----------------
-    # ENDGAME (priorità alta)
-    # -----------------
-    if total_material <= 14:
+    if non_pawn_pieces <= 6:
         return "endgame"
-
-    if queens == 0 and total_material <= 24:
+    if queens == 0 and total_mat <= 20:
         return "endgame"
-
-    if total_pieces <= 8:
+    if white_mat <= 10 or black_mat <= 10:
         return "endgame"
-
-    # -----------------
-    # OPENING (più flessibile)
-    # -----------------
-    opening_score = 0
-
-    # 👇 EARLY GAME BOOST (soft, non hard)
-    if board.fullmove_number <= 6:
-        opening_score += 1
-
-    if minor_dev <= 2:
-        opening_score += 1
-
-    opening_score += (2 - castling) * 0.5
-
-    if queens == 2:
-        opening_score += 1
-
-    if total_pieces >= 26:
-        opening_score += 1
-
-    if opening_score >= 2:
+    if move_number <= 6:
         return "opening"
-
+    if minor_dev <= 2 and move_number <= 10:
+        return "opening"
+    if non_pawn_pieces >= 12 and queens == 2 and move_number <= 12:
+        return "opening"
     return "middlegame"
