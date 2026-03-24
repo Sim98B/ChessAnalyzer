@@ -10,7 +10,7 @@ from utils.estimateElo import get_position_cp, get_players_average_cpl, get_elo_
 from utils.moveClassification import basic_move_classification, is_perfect_move, is_splendid_move
 from utils.chess_utils import extract_clock_time, get_phase
 
-engine = chess.engine.SimpleEngine.popen_uci("engine/stockfish_16_1")
+engine = chess.engine.SimpleEngine.popen_uci("engine/stockfish_18")
 depth = 22
 pv = 2
 PGN_FOLDER = Path("games/rastone98/")
@@ -45,9 +45,10 @@ for pgn_file in PGN_FOLDER.glob("*.pgn"):
             MAX_OPENING_MOVES = 10
             node = game
             index = 0
+            INITIAL_TIME = 600
 
-            prev_time_white = None
-            prev_time_black = None
+            prev_time_white = INITIAL_TIME
+            prev_time_black = INITIAL_TIME
             current_phase = "opening"
             while not node.is_end():
                 next_node = node.variation(0)
@@ -233,7 +234,7 @@ for pgn_file in PGN_FOLDER.glob("*.pgn"):
                 "white_accuracy": float(round(white_accuracy, 1)),
                 "black_accuracy": float(round(black_accuracy, 1)),
                 "opening": opening_name_global or "",
-                "engine": "stockfish16",
+                "engine": "stockfish18",
                 "depth": depth,
                 "pv": pv,
                 "result": game.headers.get("Result", ""),
