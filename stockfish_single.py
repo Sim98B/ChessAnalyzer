@@ -18,7 +18,7 @@ JSON_FILE = "rastone98.json"
 with open("openings_by_fen.json") as f:
     openings = json.load(f)
 # ===== CARICA UNA SOLA PARTITA =====
-with open("games/rastone98/game29.pgn") as f:
+with open("games/rastone98/game34.pgn") as f:
     game = chess.pgn.read_game(f)
 w_acc = []
 b_acc = []

@@ -10923,5 +10923,1738 @@
         "phase": "endgame"
       }
     ]
+  },
+  {
+    "game_id": "00030",
+    "white": "rastone98",
+    "black": "minicwel",
+    "white_elo": 789,
+    "black_elo": 777,
+    "white_rating": 1427,
+    "black_rating": 956,
+    "white_accuracy": 95.0,
+    "black_accuracy": 64.5,
+    "opening": "Italian Game: Anti-Fried Liver Defense",
+    "engine": "stockfish18",
+    "depth": 22,
+    "pv": 2,
+    "result": "1-0",
+    "date": "2026.04.01",
+    "moves": [
+      {
+        "san": "e4",
+        "classification": "Opening",
+        "time_spent": 0.10000000000002274,
+        "phase": "opening"
+      },
+      {
+        "san": "e5",
+        "classification": "Opening",
+        "time_spent": 1.7000000000000455,
+        "phase": "opening"
+      },
+      {
+        "san": "Nf3",
+        "classification": "Opening",
+        "time_spent": 0.6999999999999318,
+        "phase": "opening"
+      },
+      {
+        "san": "Nc6",
+        "classification": "Opening",
+        "time_spent": 0.7999999999999545,
+        "phase": "opening"
+      },
+      {
+        "san": "Bc4",
+        "classification": "Opening",
+        "time_spent": 1.3000000000000682,
+        "phase": "opening"
+      },
+      {
+        "san": "h6",
+        "classification": "Opening",
+        "time_spent": 1.6000000000000227,
+        "phase": "opening"
+      },
+      {
+        "san": "O-O",
+        "classification": "Excellent",
+        "time_spent": 7.2999999999999545,
+        "phase": "opening"
+      },
+      {
+        "san": "Nf6",
+        "classification": "Best",
+        "time_spent": 1.6000000000000227,
+        "phase": "opening"
+      },
+      {
+        "san": "d3",
+        "classification": "Good",
+        "time_spent": 1.8999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "Nd4",
+        "classification": "Mistake",
+        "time_spent": 13.099999999999909,
+        "phase": "opening"
+      },
+      {
+        "san": "Nxe5",
+        "classification": "Good",
+        "time_spent": 9.700000000000045,
+        "phase": "opening"
+      },
+      {
+        "san": "d6",
+        "classification": "Mistake",
+        "time_spent": 1.2000000000000455,
+        "phase": "opening"
+      },
+      {
+        "san": "Nxf7",
+        "classification": "Best",
+        "time_spent": 4.100000000000023,
+        "phase": "opening"
+      }
+    ]
+  },
+  {
+    "game_id": "00031",
+    "white": "SurojitRoy09",
+    "black": "rastone98",
+    "white_elo": 799,
+    "black_elo": 797,
+    "white_rating": 1167,
+    "black_rating": 1319,
+    "white_accuracy": 83.8,
+    "black_accuracy": 92.0,
+    "opening": "Bird Opening: Mujannah",
+    "engine": "stockfish18",
+    "depth": 22,
+    "pv": 2,
+    "result": "0-1",
+    "date": "2026.04.01",
+    "moves": [
+      {
+        "san": "c4",
+        "classification": "Opening",
+        "time_spent": 0.20000000000004547,
+        "phase": "opening"
+      },
+      {
+        "san": "Nf6",
+        "classification": "Opening",
+        "time_spent": 1.3999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "f4",
+        "classification": "Opening",
+        "time_spent": 1.1999999999999318,
+        "phase": "opening"
+      },
+      {
+        "san": "g6",
+        "classification": "Excellent",
+        "time_spent": 1.2000000000000455,
+        "phase": "opening"
+      },
+      {
+        "san": "e3",
+        "classification": "Excellent",
+        "time_spent": 1.2000000000000455,
+        "phase": "opening"
+      },
+      {
+        "san": "Bg7",
+        "classification": "Excellent",
+        "time_spent": 0.8999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "d3",
+        "classification": "Good",
+        "time_spent": 1.0,
+        "phase": "opening"
+      },
+      {
+        "san": "O-O",
+        "classification": "Excellent",
+        "time_spent": 1.2000000000000455,
+        "phase": "opening"
+      },
+      {
+        "san": "h3",
+        "classification": "Good",
+        "time_spent": 1.1000000000000227,
+        "phase": "opening"
+      },
+      {
+        "san": "d5",
+        "classification": "Good",
+        "time_spent": 5.399999999999977,
+        "phase": "opening"
+      },
+      {
+        "san": "g4",
+        "classification": "Inaccuracy",
+        "time_spent": 2.0,
+        "phase": "opening"
+      },
+      {
+        "san": "dxc4",
+        "classification": "Best",
+        "time_spent": 4.5,
+        "phase": "opening"
+      },
+      {
+        "san": "dxc4",
+        "classification": "Excellent",
+        "time_spent": 1.0,
+        "phase": "opening"
+      },
+      {
+        "san": "Qxd1+",
+        "classification": "Best",
+        "time_spent": 1.3999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "Kxd1",
+        "classification": "Best",
+        "time_spent": 0.39999999999997726,
+        "phase": "opening"
+      },
+      {
+        "san": "Ne4",
+        "classification": "Good",
+        "time_spent": 1.2999999999999545,
+        "phase": "opening"
+      },
+      {
+        "san": "Ke1",
+        "classification": "Good",
+        "time_spent": 3.6000000000000227,
+        "phase": "opening"
+      },
+      {
+        "san": "Nd7",
+        "classification": "Good",
+        "time_spent": 9.700000000000045,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Rh2",
+        "classification": "Excellent",
+        "time_spent": 1.5,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Ndc5",
+        "classification": "Best",
+        "time_spent": 12.200000000000045,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bg2",
+        "classification": "Mistake",
+        "time_spent": 5.099999999999909,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Be6",
+        "classification": "Mistake",
+        "time_spent": 4.199999999999932,
+        "phase": "middlegame"
+      },
+      {
+        "san": "a3",
+        "classification": "Inaccuracy",
+        "time_spent": 2.800000000000068,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Rad8",
+        "classification": "Inaccuracy",
+        "time_spent": 4.7000000000000455,
+        "phase": "middlegame"
+      },
+      {
+        "san": "b4",
+        "classification": "Mistake",
+        "time_spent": 4.199999999999932,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Nd3+",
+        "classification": "Best",
+        "time_spent": 1.8999999999999773,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Kd1",
+        "classification": "Best",
+        "time_spent": 8.900000000000091,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bxa1",
+        "classification": "Excellent",
+        "time_spent": 4.7999999999999545,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bxe4",
+        "classification": "Best",
+        "time_spent": 3.199999999999932,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Nf2+",
+        "classification": "Best",
+        "time_spent": 7.300000000000068,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Kc2",
+        "classification": "Best",
+        "time_spent": 13.0,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Nxe4",
+        "classification": "Perfect",
+        "time_spent": 1.6000000000000227,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Ne2",
+        "classification": "Excellent",
+        "time_spent": 4.2000000000000455,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bxc4",
+        "classification": "Best",
+        "time_spent": 4.099999999999909,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Nd2",
+        "classification": "Excellent",
+        "time_spent": 21.399999999999977,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Nxd2",
+        "classification": "Best",
+        "time_spent": 6.600000000000023,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bxd2",
+        "classification": "Best",
+        "time_spent": 0.5,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bxe2",
+        "classification": "Good",
+        "time_spent": 5.600000000000023,
+        "phase": "endgame"
+      },
+      {
+        "san": "Rxe2",
+        "classification": "Best",
+        "time_spent": 1.7999999999999545,
+        "phase": "endgame"
+      },
+      {
+        "san": "f5",
+        "classification": "Excellent",
+        "time_spent": 4.7999999999999545,
+        "phase": "endgame"
+      },
+      {
+        "san": "g5",
+        "classification": "Excellent",
+        "time_spent": 2.5,
+        "phase": "endgame"
+      },
+      {
+        "san": "b6",
+        "classification": "Excellent",
+        "time_spent": 11.900000000000034,
+        "phase": "endgame"
+      },
+      {
+        "san": "Re1",
+        "classification": "Excellent",
+        "time_spent": 1.7000000000000455,
+        "phase": "endgame"
+      },
+      {
+        "san": "Bg7",
+        "classification": "Best",
+        "time_spent": 18.0,
+        "phase": "endgame"
+      },
+      {
+        "san": "Rc1",
+        "classification": "Excellent",
+        "time_spent": 1.7000000000000455,
+        "phase": "endgame"
+      },
+      {
+        "san": "c5",
+        "classification": "Excellent",
+        "time_spent": 3.6000000000000227,
+        "phase": "endgame"
+      },
+      {
+        "san": "Kb1",
+        "classification": "Good",
+        "time_spent": 3.699999999999932,
+        "phase": "endgame"
+      },
+      {
+        "san": "cxb4",
+        "classification": "Good",
+        "time_spent": 3.3000000000000114,
+        "phase": "endgame"
+      },
+      {
+        "san": "Bxb4",
+        "classification": "Best",
+        "time_spent": 4.800000000000011,
+        "phase": "endgame"
+      },
+      {
+        "san": "Rc8",
+        "classification": "Excellent",
+        "time_spent": 2.6999999999999886,
+        "phase": "endgame"
+      },
+      {
+        "san": "Bxe7",
+        "classification": "Excellent",
+        "time_spent": 4.900000000000034,
+        "phase": "endgame"
+      },
+      {
+        "san": "Rxc1+",
+        "classification": "Best",
+        "time_spent": 4.399999999999977,
+        "phase": "endgame"
+      },
+      {
+        "san": "Kxc1",
+        "classification": "Best",
+        "time_spent": 1.7999999999999545,
+        "phase": "endgame"
+      },
+      {
+        "san": "Rc8+",
+        "classification": "Best",
+        "time_spent": 1.5,
+        "phase": "endgame"
+      },
+      {
+        "san": "Kd1",
+        "classification": "Best",
+        "time_spent": 2.6000000000000227,
+        "phase": "endgame"
+      },
+      {
+        "san": "Rc3",
+        "classification": "Excellent",
+        "time_spent": 4.300000000000011,
+        "phase": "endgame"
+      },
+      {
+        "san": "Kd2",
+        "classification": "Excellent",
+        "time_spent": 6.0,
+        "phase": "endgame"
+      },
+      {
+        "san": "Kf7",
+        "classification": "Excellent",
+        "time_spent": 5.0,
+        "phase": "endgame"
+      },
+      {
+        "san": "Bb4",
+        "classification": "Excellent",
+        "time_spent": 5.800000000000011,
+        "phase": "endgame"
+      },
+      {
+        "san": "Rc6",
+        "classification": "Excellent",
+        "time_spent": 13.199999999999989,
+        "phase": "endgame"
+      },
+      {
+        "san": "Kd3",
+        "classification": "Excellent",
+        "time_spent": 3.8999999999999773,
+        "phase": "endgame"
+      },
+      {
+        "san": "Rc1",
+        "classification": "Excellent",
+        "time_spent": 5.400000000000034,
+        "phase": "endgame"
+      }
+    ]
+  },
+  {
+    "game_id": "00032",
+    "white": "Kapedu",
+    "black": "rastone98",
+    "white_elo": 820,
+    "black_elo": 789,
+    "white_rating": 1185,
+    "black_rating": 1001,
+    "white_accuracy": 72.4,
+    "black_accuracy": 65.3,
+    "opening": "Horwitz Defense",
+    "engine": "stockfish18",
+    "depth": 22,
+    "pv": 2,
+    "result": "1-0",
+    "date": "2026.04.07",
+    "moves": [
+      {
+        "san": "d4",
+        "classification": "Opening",
+        "time_spent": 1.2000000000000455,
+        "phase": "opening"
+      },
+      {
+        "san": "e6",
+        "classification": "Opening",
+        "time_spent": 0.8999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "Bf4",
+        "classification": "Good",
+        "time_spent": 2.0,
+        "phase": "opening"
+      },
+      {
+        "san": "Nf6",
+        "classification": "Excellent",
+        "time_spent": 1.8000000000000682,
+        "phase": "opening"
+      },
+      {
+        "san": "Nf3",
+        "classification": "Opening",
+        "time_spent": 2.099999999999909,
+        "phase": "opening"
+      },
+      {
+        "san": "g6",
+        "classification": "Inaccuracy",
+        "time_spent": 3.0,
+        "phase": "opening"
+      },
+      {
+        "san": "e3",
+        "classification": "Excellent",
+        "time_spent": 2.6000000000000227,
+        "phase": "opening"
+      },
+      {
+        "san": "Bg7",
+        "classification": "Excellent",
+        "time_spent": 1.2999999999999545,
+        "phase": "opening"
+      },
+      {
+        "san": "h4",
+        "classification": "Good",
+        "time_spent": 2.300000000000068,
+        "phase": "opening"
+      },
+      {
+        "san": "d5",
+        "classification": "Good",
+        "time_spent": 1.8999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "Nc3",
+        "classification": "Best",
+        "time_spent": 7.199999999999932,
+        "phase": "opening"
+      },
+      {
+        "san": "O-O",
+        "classification": "Excellent",
+        "time_spent": 3.8999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "Bd3",
+        "classification": "Good",
+        "time_spent": 3.3999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "Re8",
+        "classification": "Inaccuracy",
+        "time_spent": 9.100000000000023,
+        "phase": "opening"
+      },
+      {
+        "san": "Ne5",
+        "classification": "Excellent",
+        "time_spent": 6.400000000000091,
+        "phase": "opening"
+      },
+      {
+        "san": "Nc6",
+        "classification": "Inaccuracy",
+        "time_spent": 9.0,
+        "phase": "opening"
+      },
+      {
+        "san": "Be2",
+        "classification": "Mistake",
+        "time_spent": 4.0,
+        "phase": "opening"
+      },
+      {
+        "san": "Ne4",
+        "classification": "Excellent",
+        "time_spent": 12.300000000000068,
+        "phase": "opening"
+      },
+      {
+        "san": "Nxe4",
+        "classification": "Best",
+        "time_spent": 3.699999999999932,
+        "phase": "opening"
+      },
+      {
+        "san": "dxe4",
+        "classification": "Best",
+        "time_spent": 1.3999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "f3",
+        "classification": "Inaccuracy",
+        "time_spent": 2.1000000000000227,
+        "phase": "opening"
+      },
+      {
+        "san": "exf3",
+        "classification": "Good",
+        "time_spent": 2.6000000000000227,
+        "phase": "opening"
+      },
+      {
+        "san": "Bxf3",
+        "classification": "Best",
+        "time_spent": 2.2999999999999545,
+        "phase": "opening"
+      },
+      {
+        "san": "f6",
+        "classification": "Mistake",
+        "time_spent": 13.399999999999977,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Nxc6",
+        "classification": "Perfect",
+        "time_spent": 9.200000000000045,
+        "phase": "middlegame"
+      },
+      {
+        "san": "bxc6",
+        "classification": "Best",
+        "time_spent": 1.1999999999999318,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bxc6",
+        "classification": "Perfect",
+        "time_spent": 2.2000000000000455,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bb7",
+        "classification": "Mistake",
+        "time_spent": 7.300000000000068,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bxe8",
+        "classification": "Mistake",
+        "time_spent": 2.699999999999932,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qxe8",
+        "classification": "Best",
+        "time_spent": 3.199999999999932,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bxc7",
+        "classification": "Mistake",
+        "time_spent": 7.100000000000023,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bxg2",
+        "classification": "Good",
+        "time_spent": 4.5,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Rg1",
+        "classification": "Inaccuracy",
+        "time_spent": 3.0,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Be4",
+        "classification": "Excellent",
+        "time_spent": 3.5,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bf4",
+        "classification": "Inaccuracy",
+        "time_spent": 5.399999999999977,
+        "phase": "middlegame"
+      },
+      {
+        "san": "e5",
+        "classification": "Best",
+        "time_spent": 16.100000000000023,
+        "phase": "middlegame"
+      },
+      {
+        "san": "dxe5",
+        "classification": "Excellent",
+        "time_spent": 4.7000000000000455,
+        "phase": "middlegame"
+      },
+      {
+        "san": "fxe5",
+        "classification": "Best",
+        "time_spent": 1.0,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bg5",
+        "classification": "Inaccuracy",
+        "time_spent": 2.2999999999999545,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Rc8",
+        "classification": "Mistake",
+        "time_spent": 12.0,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Rc1",
+        "classification": "Blunder",
+        "time_spent": 19.700000000000045,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Rd8",
+        "classification": "Blunder",
+        "time_spent": 10.700000000000045,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bxd8",
+        "classification": "Inaccuracy",
+        "time_spent": 3.599999999999966,
+        "phase": "middlegame"
+      }
+    ]
+  },
+  {
+    "game_id": "00033",
+    "white": "Malone2308",
+    "black": "rastone98",
+    "white_elo": 764,
+    "black_elo": 797,
+    "white_rating": 951,
+    "black_rating": 1083,
+    "white_accuracy": 72.6,
+    "black_accuracy": 81.7,
+    "opening": "Pirc Defense",
+    "engine": "stockfish18",
+    "depth": 22,
+    "pv": 2,
+    "result": "0-1",
+    "date": "2026.04.07",
+    "moves": [
+      {
+        "san": "e4",
+        "classification": "Opening",
+        "time_spent": 1.3999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "d6",
+        "classification": "Opening",
+        "time_spent": 0.8999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "d4",
+        "classification": "Opening",
+        "time_spent": 0.8999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "Nf6",
+        "classification": "Opening",
+        "time_spent": 1.1000000000000227,
+        "phase": "opening"
+      },
+      {
+        "san": "Nc3",
+        "classification": "Best",
+        "time_spent": 3.6000000000000227,
+        "phase": "opening"
+      },
+      {
+        "san": "c5",
+        "classification": "Inaccuracy",
+        "time_spent": 1.7999999999999545,
+        "phase": "opening"
+      },
+      {
+        "san": "d5",
+        "classification": "Inaccuracy",
+        "time_spent": 4.7000000000000455,
+        "phase": "opening"
+      },
+      {
+        "san": "g6",
+        "classification": "Excellent",
+        "time_spent": 4.600000000000023,
+        "phase": "opening"
+      },
+      {
+        "san": "Bg5",
+        "classification": "Excellent",
+        "time_spent": 4.899999999999977,
+        "phase": "opening"
+      },
+      {
+        "san": "Nbd7",
+        "classification": "Good",
+        "time_spent": 3.2000000000000455,
+        "phase": "opening"
+      },
+      {
+        "san": "Bxf6",
+        "classification": "Mistake",
+        "time_spent": 2.2999999999999545,
+        "phase": "opening"
+      },
+      {
+        "san": "Nxf6",
+        "classification": "Best",
+        "time_spent": 1.0,
+        "phase": "opening"
+      },
+      {
+        "san": "Bb5+",
+        "classification": "Excellent",
+        "time_spent": 1.0,
+        "phase": "opening"
+      },
+      {
+        "san": "Bd7",
+        "classification": "Best",
+        "time_spent": 1.0,
+        "phase": "opening"
+      },
+      {
+        "san": "Nf3",
+        "classification": "Mistake",
+        "time_spent": 31.300000000000068,
+        "phase": "opening"
+      },
+      {
+        "san": "Bxb5",
+        "classification": "Perfect",
+        "time_spent": 5.699999999999932,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Nxb5",
+        "classification": "Best",
+        "time_spent": 3.699999999999932,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Nxe4",
+        "classification": "Good",
+        "time_spent": 1.400000000000091,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qd3",
+        "classification": "Excellent",
+        "time_spent": 13.0,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Nf6",
+        "classification": "Good",
+        "time_spent": 5.2999999999999545,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qa3",
+        "classification": "Mistake",
+        "time_spent": 8.400000000000091,
+        "phase": "middlegame"
+      },
+      {
+        "san": "a6",
+        "classification": "Best",
+        "time_spent": 7.2000000000000455,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Nc3",
+        "classification": "Best",
+        "time_spent": 12.799999999999955,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bg7",
+        "classification": "Excellent",
+        "time_spent": 1.599999999999909,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qa4+",
+        "classification": "Inaccuracy",
+        "time_spent": 3.0,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Nd7",
+        "classification": "Inaccuracy",
+        "time_spent": 3.800000000000068,
+        "phase": "middlegame"
+      },
+      {
+        "san": "O-O-O",
+        "classification": "Good",
+        "time_spent": 14.699999999999989,
+        "phase": "middlegame"
+      },
+      {
+        "san": "O-O",
+        "classification": "Excellent",
+        "time_spent": 7.100000000000023,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Ne4",
+        "classification": "Excellent",
+        "time_spent": 12.400000000000034,
+        "phase": "middlegame"
+      },
+      {
+        "san": "b5",
+        "classification": "Best",
+        "time_spent": 12.299999999999955,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qb3",
+        "classification": "Best",
+        "time_spent": 6.2999999999999545,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bh6+",
+        "classification": "Inaccuracy",
+        "time_spent": 3.0,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Kb1",
+        "classification": "Best",
+        "time_spent": 3.5,
+        "phase": "middlegame"
+      },
+      {
+        "san": "c4",
+        "classification": "Good",
+        "time_spent": 13.0,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qc3",
+        "classification": "Good",
+        "time_spent": 5.900000000000034,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bg7",
+        "classification": "Best",
+        "time_spent": 1.5,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qb4",
+        "classification": "Inaccuracy",
+        "time_spent": 15.099999999999966,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Ne5",
+        "classification": "Inaccuracy",
+        "time_spent": 9.200000000000045,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Nfg5",
+        "classification": "Inaccuracy",
+        "time_spent": 49.400000000000034,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qd7",
+        "classification": "Good",
+        "time_spent": 26.799999999999955,
+        "phase": "middlegame"
+      },
+      {
+        "san": "h3",
+        "classification": "Inaccuracy",
+        "time_spent": 43.80000000000001,
+        "phase": "middlegame"
+      },
+      {
+        "san": "f5",
+        "classification": "Mistake",
+        "time_spent": 2.6999999999999886,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Ng3",
+        "classification": "Best",
+        "time_spent": 19.5,
+        "phase": "middlegame"
+      },
+      {
+        "san": "f4",
+        "classification": "Excellent",
+        "time_spent": 5.400000000000034,
+        "phase": "middlegame"
+      },
+      {
+        "san": "N3e4",
+        "classification": "Best",
+        "time_spent": 1.2999999999999545,
+        "phase": "middlegame"
+      },
+      {
+        "san": "f3",
+        "classification": "Good",
+        "time_spent": 5.599999999999966,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Nxf3",
+        "classification": "Mistake",
+        "time_spent": 4.900000000000034,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Nxf3",
+        "classification": "Best",
+        "time_spent": 1.0,
+        "phase": "middlegame"
+      },
+      {
+        "san": "gxf3",
+        "classification": "Best",
+        "time_spent": 1.0,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Rxf3",
+        "classification": "Inaccuracy",
+        "time_spent": 1.6000000000000227,
+        "phase": "middlegame"
+      },
+      {
+        "san": "b3",
+        "classification": "Mistake",
+        "time_spent": 13.399999999999977,
+        "phase": "middlegame"
+      },
+      {
+        "san": "cxb3",
+        "classification": "Best",
+        "time_spent": 17.69999999999999,
+        "phase": "middlegame"
+      },
+      {
+        "san": "axb3",
+        "classification": "Best",
+        "time_spent": 4.600000000000023,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qf5",
+        "classification": "Inaccuracy",
+        "time_spent": 8.0,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Rhe1",
+        "classification": "Best",
+        "time_spent": 9.300000000000011,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Rxf2",
+        "classification": "Blunder",
+        "time_spent": 4.5,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Re3",
+        "classification": "Blunder",
+        "time_spent": 13.5,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Rc8",
+        "classification": "Best",
+        "time_spent": 19.80000000000001,
+        "phase": "middlegame"
+      },
+      {
+        "san": "c4",
+        "classification": "Inaccuracy",
+        "time_spent": 46.79999999999998,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qe5",
+        "classification": "Good",
+        "time_spent": 9.5,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Nxf2",
+        "classification": "Inaccuracy",
+        "time_spent": 18.5,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qa1+",
+        "classification": "Inaccuracy",
+        "time_spent": 4.399999999999977,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Kc2",
+        "classification": "Forced",
+        "time_spent": 0.9000000000000057,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qb2+",
+        "classification": "Best",
+        "time_spent": 3.5,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Kd3",
+        "classification": "Forced",
+        "time_spent": 4.199999999999989,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qxf2",
+        "classification": "Inaccuracy",
+        "time_spent": 1.6999999999999886,
+        "phase": "endgame"
+      },
+      {
+        "san": "Rxe7",
+        "classification": "Inaccuracy",
+        "time_spent": 5.0,
+        "phase": "endgame"
+      },
+      {
+        "san": "bxc4+",
+        "classification": "Excellent",
+        "time_spent": 8.400000000000034,
+        "phase": "endgame"
+      },
+      {
+        "san": "bxc4",
+        "classification": "Best",
+        "time_spent": 14.0,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qf3+",
+        "classification": "Mistake",
+        "time_spent": 3.8000000000000114,
+        "phase": "endgame"
+      },
+      {
+        "san": "Kc2",
+        "classification": "Best",
+        "time_spent": 5.300000000000011,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qf6",
+        "classification": "Blunder",
+        "time_spent": 10.699999999999989,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qb7",
+        "classification": "Blunder",
+        "time_spent": 13.299999999999983,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qc3+",
+        "classification": "Excellent",
+        "time_spent": 4.800000000000011,
+        "phase": "endgame"
+      },
+      {
+        "san": "Kb1",
+        "classification": "Forced",
+        "time_spent": 9.5,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qa1+",
+        "classification": "Perfect",
+        "time_spent": 7.2999999999999545,
+        "phase": "endgame"
+      },
+      {
+        "san": "Kc2",
+        "classification": "Forced",
+        "time_spent": 1.8000000000000114,
+        "phase": "endgame"
+      },
+      {
+        "san": "Rxc4+",
+        "classification": "Best",
+        "time_spent": 5.600000000000023,
+        "phase": "endgame"
+      },
+      {
+        "san": "Kd2",
+        "classification": "Best",
+        "time_spent": 13.400000000000006,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qd4+",
+        "classification": "Best",
+        "time_spent": 6.899999999999977,
+        "phase": "endgame"
+      },
+      {
+        "san": "Ke2",
+        "classification": "Excellent",
+        "time_spent": 8.299999999999983,
+        "phase": "endgame"
+      },
+      {
+        "san": "Rc2+",
+        "classification": "Perfect",
+        "time_spent": 4.5,
+        "phase": "endgame"
+      },
+      {
+        "san": "Ke1",
+        "classification": "Excellent",
+        "time_spent": 21.5,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qf2#",
+        "classification": "Excellent",
+        "time_spent": 3.2000000000000455,
+        "phase": "endgame"
+      }
+    ]
+  },
+  {
+    "game_id": "00034",
+    "white": "rastone98",
+    "black": "rosienevy01",
+    "white_elo": 805,
+    "black_elo": 771,
+    "white_rating": 1230,
+    "black_rating": 1060,
+    "white_accuracy": 76.4,
+    "black_accuracy": 75.2,
+    "opening": "Russian Game",
+    "engine": "stockfish18",
+    "depth": 22,
+    "pv": 2,
+    "result": "1-0",
+    "date": "2026.04.08",
+    "moves": [
+      {
+        "san": "e4",
+        "classification": "Opening",
+        "time_spent": 0.5,
+        "phase": "opening"
+      },
+      {
+        "san": "e5",
+        "classification": "Opening",
+        "time_spent": 1.2999999999999545,
+        "phase": "opening"
+      },
+      {
+        "san": "Nf3",
+        "classification": "Opening",
+        "time_spent": 0.6000000000000227,
+        "phase": "opening"
+      },
+      {
+        "san": "Nf6",
+        "classification": "Opening",
+        "time_spent": 1.2000000000000455,
+        "phase": "opening"
+      },
+      {
+        "san": "d3",
+        "classification": "Inaccuracy",
+        "time_spent": 2.6000000000000227,
+        "phase": "opening"
+      },
+      {
+        "san": "Nc6",
+        "classification": "Best",
+        "time_spent": 2.2000000000000455,
+        "phase": "opening"
+      },
+      {
+        "san": "Nc3",
+        "classification": "Good",
+        "time_spent": 2.2999999999999545,
+        "phase": "opening"
+      },
+      {
+        "san": "d5",
+        "classification": "Excellent",
+        "time_spent": 4.0,
+        "phase": "opening"
+      },
+      {
+        "san": "exd5",
+        "classification": "Best",
+        "time_spent": 4.399999999999977,
+        "phase": "opening"
+      },
+      {
+        "san": "Nxd5",
+        "classification": "Best",
+        "time_spent": 1.8999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "Bd2",
+        "classification": "Good",
+        "time_spent": 16.100000000000023,
+        "phase": "opening"
+      },
+      {
+        "san": "Nxc3",
+        "classification": "Good",
+        "time_spent": 1.6000000000000227,
+        "phase": "opening"
+      },
+      {
+        "san": "Bxc3",
+        "classification": "Best",
+        "time_spent": 1.0,
+        "phase": "opening"
+      },
+      {
+        "san": "Bd6",
+        "classification": "Excellent",
+        "time_spent": 3.5,
+        "phase": "opening"
+      },
+      {
+        "san": "d4",
+        "classification": "Best",
+        "time_spent": 2.5,
+        "phase": "opening"
+      },
+      {
+        "san": "Qe7",
+        "classification": "Excellent",
+        "time_spent": 6.5,
+        "phase": "opening"
+      },
+      {
+        "san": "Bb5",
+        "classification": "Blunder",
+        "time_spent": 5.2999999999999545,
+        "phase": "opening"
+      },
+      {
+        "san": "Bd7",
+        "classification": "Blunder",
+        "time_spent": 2.3999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "O-O",
+        "classification": "Best",
+        "time_spent": 2.2000000000000455,
+        "phase": "opening"
+      },
+      {
+        "san": "exd4",
+        "classification": "Mistake",
+        "time_spent": 5.0,
+        "phase": "opening"
+      },
+      {
+        "san": "Re1",
+        "classification": "Perfect",
+        "time_spent": 2.8999999999999773,
+        "phase": "opening"
+      },
+      {
+        "san": "Be6",
+        "classification": "Mistake",
+        "time_spent": 4.699999999999932,
+        "phase": "opening"
+      },
+      {
+        "san": "Bxc6+",
+        "classification": "Best",
+        "time_spent": 9.300000000000068,
+        "phase": "middlegame"
+      },
+      {
+        "san": "bxc6",
+        "classification": "Best",
+        "time_spent": 2.1000000000000227,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bxd4",
+        "classification": "Blunder",
+        "time_spent": 1.599999999999909,
+        "phase": "middlegame"
+      },
+      {
+        "san": "O-O",
+        "classification": "Best",
+        "time_spent": 4.300000000000068,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Ng5",
+        "classification": "Blunder",
+        "time_spent": 6.400000000000091,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qxg5",
+        "classification": "Perfect",
+        "time_spent": 11.899999999999977,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Be3",
+        "classification": "Excellent",
+        "time_spent": 9.699999999999932,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qd5",
+        "classification": "Excellent",
+        "time_spent": 8.100000000000023,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qe2",
+        "classification": "Excellent",
+        "time_spent": 12.700000000000045,
+        "phase": "middlegame"
+      },
+      {
+        "san": "c5",
+        "classification": "Excellent",
+        "time_spent": 8.699999999999932,
+        "phase": "middlegame"
+      },
+      {
+        "san": "c4",
+        "classification": "Best",
+        "time_spent": 9.799999999999955,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qxc4",
+        "classification": "Best",
+        "time_spent": 2.800000000000068,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qf3",
+        "classification": "Excellent",
+        "time_spent": 6.400000000000034,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bd5",
+        "classification": "Excellent",
+        "time_spent": 10.299999999999955,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qh5",
+        "classification": "Excellent",
+        "time_spent": 14.899999999999977,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Rae8",
+        "classification": "Excellent",
+        "time_spent": 22.899999999999977,
+        "phase": "middlegame"
+      },
+      {
+        "san": "h3",
+        "classification": "Excellent",
+        "time_spent": 10.100000000000023,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bf4",
+        "classification": "Blunder",
+        "time_spent": 11.900000000000034,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Bxf4",
+        "classification": "Best",
+        "time_spent": 9.300000000000011,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Qxf4",
+        "classification": "Inaccuracy",
+        "time_spent": 2.0,
+        "phase": "middlegame"
+      },
+      {
+        "san": "Rxe8",
+        "classification": "Good",
+        "time_spent": 8.299999999999955,
+        "phase": "endgame"
+      },
+      {
+        "san": "Rxe8",
+        "classification": "Perfect",
+        "time_spent": 4.899999999999977,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qxd5",
+        "classification": "Best",
+        "time_spent": 2.3000000000000114,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qe5",
+        "classification": "Excellent",
+        "time_spent": 6.699999999999989,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qd7",
+        "classification": "Excellent",
+        "time_spent": 4.800000000000011,
+        "phase": "endgame"
+      },
+      {
+        "san": "f6",
+        "classification": "Good",
+        "time_spent": 6.600000000000023,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qb5",
+        "classification": "Excellent",
+        "time_spent": 22.600000000000023,
+        "phase": "endgame"
+      },
+      {
+        "san": "c4",
+        "classification": "Good",
+        "time_spent": 11.899999999999977,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qxc4+",
+        "classification": "Best",
+        "time_spent": 3.2999999999999545,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qe6",
+        "classification": "Inaccuracy",
+        "time_spent": 5.100000000000023,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qxc7",
+        "classification": "Perfect",
+        "time_spent": 1.7000000000000455,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qe7",
+        "classification": "Excellent",
+        "time_spent": 2.1000000000000227,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qa5",
+        "classification": "Excellent",
+        "time_spent": 11.299999999999955,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qe2",
+        "classification": "Excellent",
+        "time_spent": 11.399999999999977,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qxa7",
+        "classification": "Inaccuracy",
+        "time_spent": 22.200000000000045,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qxb2",
+        "classification": "Best",
+        "time_spent": 4.300000000000011,
+        "phase": "endgame"
+      },
+      {
+        "san": "Rd1",
+        "classification": "Best",
+        "time_spent": 12.5,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qe2",
+        "classification": "Mistake",
+        "time_spent": 11.699999999999989,
+        "phase": "endgame"
+      },
+      {
+        "san": "Rd7",
+        "classification": "Best",
+        "time_spent": 12.199999999999989,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qe1+",
+        "classification": "Best",
+        "time_spent": 26.19999999999999,
+        "phase": "endgame"
+      },
+      {
+        "san": "Kh2",
+        "classification": "Forced",
+        "time_spent": 1.0,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qe5+",
+        "classification": "Best",
+        "time_spent": 5.600000000000023,
+        "phase": "endgame"
+      },
+      {
+        "san": "g3",
+        "classification": "Perfect",
+        "time_spent": 1.3999999999999773,
+        "phase": "endgame"
+      },
+      {
+        "san": "Kf8",
+        "classification": "Blunder",
+        "time_spent": 17.0,
+        "phase": "endgame"
+      },
+      {
+        "san": "Rf7+",
+        "classification": "Perfect",
+        "time_spent": 4.199999999999989,
+        "phase": "endgame"
+      },
+      {
+        "san": "Kg8",
+        "classification": "Forced",
+        "time_spent": 8.099999999999966,
+        "phase": "endgame"
+      },
+      {
+        "san": "Rxg7+",
+        "classification": "Perfect",
+        "time_spent": 2.6000000000000227,
+        "phase": "endgame"
+      },
+      {
+        "san": "Kf8",
+        "classification": "Excellent",
+        "time_spent": 8.900000000000034,
+        "phase": "endgame"
+      },
+      {
+        "san": "Qf7#",
+        "classification": "Best",
+        "time_spent": 3.6000000000000227,
+        "phase": "endgame"
+      }
+    ]
   }
 ]
